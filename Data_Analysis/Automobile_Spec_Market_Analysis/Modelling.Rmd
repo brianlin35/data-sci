@@ -1,5 +1,10 @@
 ---
 title: "Automobile Spec Market Analysis"
+author:
+  Alice Drozd,
+  Rex Gao,
+  Brian Lin,
+  Daniel Kim
 output: html_document
 ---
 
