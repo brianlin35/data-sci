@@ -7,11 +7,6 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r cars}
-summary(cars)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 ```{r}
 library(tidyverse)
 library(patchwork)
@@ -26,9 +21,10 @@ library(dplyr)
 data <- read.csv("Car_sales.csv")
 summary(data)
 ```
-Let's first understand what variables we have in our data
 
 ```{r}
+# EDA
+
 # Variable: Manufacturer
 # Type: String, Categorical
 
