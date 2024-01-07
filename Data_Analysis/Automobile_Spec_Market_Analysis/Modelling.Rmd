@@ -1,0 +1,706 @@
+---
+title: "Automobile Spec Market Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r cars}
+summary(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r}
+library(tidyverse)
+library(patchwork)
+library(car)
+library(lmtest)
+library(sandwich)
+library(stargazer)
+library(dplyr)
+```
+
+```{r}
+data <- read.csv("Car_sales.csv")
+summary(data)
+```
+Let's first understand what variables we have in our data
+
+```{r}
+# Variable: Manufacturer
+# Type: String, Categorical
+
+ggplot(data, aes(Manufacturer)) + geom_bar(color=1, fill='grey') + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+# Let's look at mean sales by manufacturer
+sales_by_manufacturer <- data %>%
+ group_by(Manufacturer) %>%
+ summarise(mean_sales = mean(Sales_in_thousands))
+sales_by_manufacturer
+
+ggplot(sales_by_manufacturer, aes(Manufacturer, mean_sales)) + geom_point() + stat_smooth() + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+data[is.na(data$Manufacturer),]
+# no missing values
+
+# manufacturer may be a meaningful variable to explore, although the number of cars a manufacturer produces appears to be more influential than the manufacturer itself
+```
+```{r}
+# Variable: Vehicle_type
+# Type: String, Categorical
+
+ggplot(data, aes(Vehicle_type)) + geom_bar(color=1, fill='grey') + theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+# Let's look at mean sales by vehicle_type
+sales_by_vehicle_type <- data %>%
+ group_by(Vehicle_type) %>%
+ summarise(mean_sales = mean(Sales_in_thousands))
+sales_by_vehicle_type
+
+data[is.na(data$Vehicle_type),]
+# no missing values
+
+# looks like this variable will not be very helpful, as car and passenger designations are seemingly random?
+```
+```{r}
+# Variable: Sales_in_thousands
+# Type: Numerical, Continuous
+
+ggplot(data, aes(Sales_in_thousands)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# looks pretty skewed right, perhaps an outlier that may need to be removed. Even without outlier would not be exactly normal
+
+data[is.na(data$Sales_in_thousands),]
+# no missing values
+
+# outliers
+out_sales <- boxplot.stats(data$Sales_in_thousands)$out
+out_sales_ind <- which(data$Sales_in_thousands %in% c(out_sales))
+out_sales_ind
+data[out_sales_ind,]
+ggplot(data[-out_sales_ind,], aes(Sales_in_thousands)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# no outliers??
+
+# considering definition of outlier to be lying outside 99% and 1%
+outlier_ind <- which(data$Sales_in_thousands < quantile(data$Sales_in_thousands, 0.1) | data$Sales_in_thousands > quantile(data$Sales_in_thousands, 0.9))
+outlier_ind
+data[outlier_ind,]
+ggplot(data[-outlier_ind,], aes(Sales_in_thousands)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+
+# I suggest removing index 57 only
+outlier_ind_v2 <- c(57)
+data[outlier_ind_v2,]
+ggplot(data[-outlier_ind_v2,], aes(Sales_in_thousands)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# still skewed, but not so heavily
+```
+```{r}
+# Variable: X__year_resale_value
+# Type: Numerical, Ordinal
+
+ggplot(data, aes(X__year_resale_value)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# data looks heavily skewed right, with lots of values -> can't just remove outliers
+
+data[is.na(data$X__year_resale_value),]
+# 36 missing values??? 36/157 is almost a quarter of our data -> we need to make a decision about what to do with these. 
+# Do we impute via median, remove rows completely, or just delete this entire column?
+
+# outliers
+out_resale <- boxplot.stats(data$X__year_resale_value)$out
+out_resale_ind <- which(data$X__year_resale_value %in% c(out_resale))
+out_resale_ind
+data[out_resale_ind,]
+ggplot(data[-out_resale_ind,], aes(X__year_resale_value)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# 12 outliers, kind of a lot, I think we would be losing a lot of valuable information if we do decide to keep this variable
+```
+
+```{r}
+# Variable: Price_in_thousands
+# Type: Numerical, Continuous
+
+ggplot(data, aes(Price_in_thousands)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# looks pretty skewed right, with lots of values -> can't remove outliers
+
+data[is.na(data$Price_in_thousands),]
+# 2 missing values, do we impute or remove from dataset? One is Chrysler Town & Country
+
+# outliers
+out_price <- boxplot.stats(data$Price_in_thousands)$out
+out_price_ind <- which(data$Price_in_thousands %in% c(out_price))
+out_price_ind
+data[out_price_ind,]
+ggplot(data[-out_price_ind,], aes(Price_in_thousands)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# 9 outliers, too many to remove I think
+```
+
+```{r}
+# Variable: Engine_size
+# Type: Numerical, Continuous?
+
+data$Engine_size
+
+ggplot(data, aes(Engine_size)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# looks pretty skewed right, perhaps an outlier that may need to be removed. Without outlier would be pretty normal
+
+data[is.na(data$Engine_size),]
+# one missing value for Chrysler Town & Country
+
+# outliers
+out_engine <- boxplot.stats(data$Engine_size)$out
+out_engine_ind <- which(data$Engine_size %in% c(out_engine))
+out_engine_ind
+data[out_engine_ind,]
+ggplot(data[-out_engine_ind,], aes(Engine_size)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# 3 outliers, I suggest only removing index 40:
+
+out_engine_ind_v2 <- c(40)
+ggplot(data[-out_engine_ind_v2,], aes(Engine_size)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+```
+```{r}
+# Variable: Horsepower
+# Type: Numerical, Continuous?
+data$Horsepower
+
+ggplot(data, aes(Horsepower)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# skewed right with one outlier, maybe we should remove it? Without outlier would be pretty normal
+
+data[is.na(data$Horsepower),]
+# one missing value for Chrysler Town & Country
+
+# outliers
+out_horsepower <- boxplot.stats(data$Horsepower)$out
+out_horsepower_ind <- which(data$Horsepower %in% c(out_horsepower))
+out_horsepower_ind
+data[out_horsepower_ind,]
+# stats suggests 2 outliers: index 25 and 40, but one does not look like an outlier at all. I suggest keeping index 25 as a normal datapoint, but classifying 40 as an outlier:
+out_horsepower_ind <- c(40)
+out_horsepower_ind
+data[out_horsepower_ind,]
+ggplot(data[-out_horsepower_ind,], aes(Horsepower)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# normal distribution!! 
+```
+
+```{r}
+# Variable: Wheelbase
+# Type: Numerical, Continuous
+data$Wheelbase
+
+ggplot(data, aes(Wheelbase)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# actually kind of normal??
+
+data[is.na(data$Wheelbase),]
+# one missing value for Chrysler Town & Country
+
+# outliers
+out_wheelbase <- boxplot.stats(data$Wheelbase)$out
+out_wheelbase_ind <- which(data$Wheelbase %in% c(out_wheelbase))
+out_wheelbase_ind
+data[out_wheelbase_ind,]
+ggplot(data[-out_wheelbase_ind,], aes(Wheelbase)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# 4 outliers, could go either way - distribution is fairly normal without taking out outliers
+```
+```{r}
+# Variable: Width
+# Type: Numerical, Continuous
+data$Width
+
+ggplot(data, aes(Width)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# actually kind of normal??
+
+data[is.na(data$Width),]
+# one missing value for Chrysler Town & Country
+
+# outliers
+out_width <- boxplot.stats(data$Width)$out
+out_width_ind <- which(data$Width %in% c(out_width))
+out_width_ind
+data[out_width_ind,]
+# no outliers
+```
+
+```{r}
+# Variable: Length
+# Type: Numerical, Continuous
+data$Length
+
+ggplot(data, aes(Length)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# actually kind of normal??
+
+data[is.na(data$Length),]
+# one missing value for Chrysler Town & Country
+
+# outliers
+out_length <- boxplot.stats(data$Length)$out
+out_length_ind <- which(data$Length %in% c(out_length))
+out_length_ind
+data[out_length_ind,]
+ggplot(data[-out_length_ind,], aes(Length)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# 3 outliers, but fairly normal without removal of outliers
+```
+```{r}
+# Variable: Curb_weight
+# Type: Numerical, Continuous
+data$Curb_weight
+
+ggplot(data, aes(Curb_weight)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# actually kind of normal??
+
+data[is.na(data$Curb_weight),]
+# 2 missing values, one for Chrysler Town & Country
+
+# outliers
+out_curb_weight <- boxplot.stats(data$Curb_weight)$out
+out_curb_weight_ind <- which(data$Curb_weight %in% c(out_curb_weight))
+out_curb_weight_ind
+data[out_curb_weight_ind,]
+ggplot(data[-out_curb_weight_ind,], aes(Curb_weight)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# 4 outliers, but fairly normal without removal of outliers
+```
+
+```{r}
+# Variable: Fuel_capacity
+# Type: Numerical, Continuous
+data$Fuel_capacity
+
+ggplot(data, aes(Fuel_capacity)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# skewed right but not as bad as some other variables
+
+data[is.na(data$Fuel_capacity),]
+# one missing value for Chrysler Town & Country
+
+# outliers
+out_fuel_capacity <- boxplot.stats(data$Fuel_capacity)$out
+out_fuel_capacity_ind <- which(data$Fuel_capacity %in% c(out_fuel_capacity))
+out_fuel_capacity_ind
+data[out_fuel_capacity_ind,]
+ggplot(data[-out_fuel_capacity_ind,], aes(Fuel_capacity)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# too many outliers (7) to remove, not too badly skewed in the first place
+```
+```{r}
+# Variable: Fuel_efficiency
+# Type: Numerical, Continuous
+data$Fuel_efficiency
+
+ggplot(data, aes(Fuel_efficiency)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# skewed right with one apparent outlier, could remove to make it pretty normal
+
+data[is.na(data$Fuel_efficiency),]
+# 3 missing values, one for Chrysler Town & Country
+
+# outliers
+out_fuel_efficiency <- boxplot.stats(data$Fuel_efficiency)$out
+out_fuel_efficiency_ind <- which(data$Fuel_efficiency %in% c(out_fuel_efficiency))
+out_fuel_efficiency_ind
+data[out_fuel_efficiency_ind,]
+ggplot(data[-out_fuel_efficiency_ind,], aes(Fuel_efficiency)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# 1 outlier, suggest removing because without it -> normal distribution
+```
+
+```{r}
+# Variable: Power_perf_factor
+# Type: Numerical, Continuous
+data$Power_perf_factor
+
+ggplot(data, aes(Power_perf_factor)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# skewed right with one apparent outlier, could remove to make it pretty normal
+
+data[is.na(data$Power_perf_factor),]
+# 2 missing values, one for Chrysler Town & Country
+
+# outliers
+out_power_perf_factor <- boxplot.stats(data$Power_perf_factor)$out
+out_power_perf_factor_ind <- which(data$Power_perf_factor %in% c(out_power_perf_factor))
+out_power_perf_factor_ind
+data[out_power_perf_factor_ind,]
+ggplot(data[-out_power_perf_factor_ind,], aes(Power_perf_factor)) + geom_histogram(aes(y = ..density..), color=1, fill='grey') + geom_density(color=4, size=1)
+# 7 outliers, suggest not removing -> distribution isn't that bad anyways
+```
+```{r}
+# dropping NA values from fuel_efficiency takes care of all other NA values other than the resale year
+data <- data %>% drop_na(Fuel_efficiency)
+summary(data)
+```
+
+
+```{r}
+numerical_data <- data %>% select(3,6:14,16)
+colnames(numerical_data)
+names(numerical_data)[1] <- "Sales in Thousands"
+names(numerical_data)[2] <- "Price in Thousands"
+names(numerical_data)[3] <- "Engine Size"
+names(numerical_data)[4] <- "Horsepower"
+names(numerical_data)[5] <- "Wheelbase"
+names(numerical_data)[6] <- "Width"
+names(numerical_data)[7] <- "Length"
+names(numerical_data)[8] <- "Curb Weight"
+names(numerical_data)[9] <- "Fuel Capacity"
+names(numerical_data)[10] <- "Fuel Efficiency"
+names(numerical_data)[11] <- "Power Perf Factor"
+
+
+res <- cor(numerical_data)
+round(res,2)
+
+# Power_perf_factor is perfectly collinear with Horsepower, so we remove it
+
+library(corrplot)
+corrplot(res, type = "upper", order = "hclust", 
+         tl.col = "black", tl.srt = 45)
+```
+Now that we've explore our variables, we can begin to build the model and assess our assumptions
+
+```{r}
+model_one <- lm(Sales_in_thousands ~ Horsepower, data=data)
+model_two <- lm(Sales_in_thousands ~ Price_in_thousands + Engine_size + Horsepower + Wheelbase + Width + Length + Curb_weight + Fuel_capacity + Fuel_efficiency, data=data)
+model_three <- lm(Sales_in_thousands ~ Horsepower + Wheelbase + Price_in_thousands + Length, data=data)
+
+# Question for group: should we try one-hot encoding manufacturer? There are so many and it may not be the effort, but could be useful
+```
+
+
+
+Model 1
+```{r}
+coeftest(model_one)
+
+# linear pattern is good
+data %>% 
+  mutate(
+    model_one_preds = predict(model_one), 
+    model_one_resids = resid(model_one)
+  ) %>% 
+  ggplot(aes(model_one_preds, model_one_resids)) + 
+  geom_point() + 
+  stat_smooth()
+```
+
+```{r}
+# heteroskedastic errors
+plot(model_one, which=3)
+```
+
+```{r}
+# errors not normally distributed
+data <- data %>% 
+  mutate(
+    model_one_preds = predict(model_one), 
+    model_one_resids = resid(model_one)
+  ) 
+
+plot_one <- data %>% 
+  ggplot(aes(x = model_one_resids)) + 
+  geom_histogram()
+  
+plot_two <- data %>% 
+  ggplot(aes(sample = model_one_resids)) + 
+  stat_qq() + stat_qq_line()
+
+plot_one 
+plot_two
+```
+
+Model 2
+
+Let's look at the linear conditional expectation first
+```{r}
+# Sales_in_thousands ~ Price_in_thousands + Engine_size + Horsepower + Wheelbase + Width + Length + Curb_weight + Fuel_capacity + Fuel_efficiency
+data <- data %>% 
+  mutate(
+    model_two_preds = predict(model_two), 
+    model_two_resids = resid(model_two)
+  ) 
+
+price_resids2 <- data %>% 
+  ggplot(aes(Price_in_thousands, model_two_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+engine_resids2 <- data %>% 
+  ggplot(aes(Engine_size, model_two_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+hp_resids2 <- data %>% 
+  ggplot(aes(Horsepower, model_two_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+wheelbase_resids2 <- data %>% 
+  ggplot(aes(Wheelbase, model_two_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+width_resids2 <- data %>% 
+  ggplot(aes(Width, model_two_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+length_resids2 <- data %>% 
+  ggplot(aes(Length, model_two_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+curb_weight_resids2 <- data %>% 
+  ggplot(aes(Curb_weight, model_two_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+fuel_capacity_resids2 <- data %>% 
+  ggplot(aes(Fuel_capacity, model_two_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+fuel_efficiency_resids2 <- data %>% 
+  ggplot(aes(Fuel_efficiency, model_two_resids)) + 
+  geom_point() + 
+  stat_smooth()
+```
+
+```{r}
+price_resids2
+engine_resids2
+hp_resids2
+wheelbase_resids2 # may need transformation
+width_resids2
+length_resids2 # may need transformation
+curb_weight_resids2
+fuel_capacity_resids2 # may need transformation
+fuel_efficiency_resids2
+```
+
+```{r}
+vif(model_two)
+coeftest(model_two)
+
+# slightly parabolic pattern, may need to transform variables
+data %>% 
+  mutate(
+    model_two_preds = predict(model_two), 
+    model_two_resids = resid(model_two)
+  ) %>% 
+  ggplot(aes(model_two_preds, model_two_resids)) + 
+  geom_point() + 
+  stat_smooth()
+```
+
+```{r}
+# heteroskedastic errors
+plot(model_two, which=3)
+```
+```{r}
+# errors not normally distributed
+data <- data %>% 
+  mutate(
+    model_two_preds = predict(model_two), 
+    model_two_resids = resid(model_two)
+  ) 
+
+plot2_one <- data %>% 
+  ggplot(aes(x = model_two_resids)) + 
+  geom_histogram()
+  
+plot2_two <- data %>% 
+  ggplot(aes(sample = model_two_resids)) + 
+  stat_qq() + stat_qq_line()
+
+plot2_one 
+plot2_two
+```
+
+```{r}
+data %>% 
+  select(Sales_in_thousands, Price_in_thousands, Engine_size, Horsepower, Wheelbase, Width, Length, Curb_weight, Fuel_capacity, Fuel_efficiency, model_two_resids) %>% 
+  pairs()
+```
+
+Model 3
+
+Let's look at the linear conditional expectation first
+```{r}
+# Sales_in_thousands ~ Horsepower + Wheelbase + Price_in_thousands + Length
+data <- data %>% 
+  mutate(
+    model_three_preds = predict(model_three), 
+    model_three_resids = resid(model_three)
+  ) 
+
+price_resids3 <- data %>% 
+  ggplot(aes(Price_in_thousands, model_three_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+hp_resids3 <- data %>% 
+  ggplot(aes(Horsepower, model_three_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+wheelbase_resids3 <- data %>% 
+  ggplot(aes(Wheelbase, model_three_resids)) + 
+  geom_point() + 
+  stat_smooth()
+
+length_resids3 <- data %>% 
+  ggplot(aes(Length, model_three_resids)) + 
+  geom_point() + 
+  stat_smooth()
+```
+
+```{r}
+price_resids3
+hp_resids3
+wheelbase_resids3 # may need transformation
+length_resids3 # may need transformation
+```
+
+```{r}
+vif(model_three)
+coeftest(model_three)
+
+# slightly parabolic pattern, may need to transform variables
+data %>% 
+  mutate(
+    model_three_preds = predict(model_three), 
+    model_three_resids = resid(model_three)
+  ) %>% 
+  ggplot(aes(model_three_preds, model_three_resids)) + 
+  geom_point() + 
+  stat_smooth()
+```
+```{r}
+# heteroskedastic errors
+plot(model_three, which=3)
+```
+```{r}
+# errors not normally distributed
+data <- data %>% 
+  mutate(
+    model_three_preds = predict(model_three), 
+    model_three_resids = resid(model_three)
+  ) 
+
+plot3_one <- data %>% 
+  ggplot(aes(x = model_three_resids)) + 
+  geom_histogram()
+  
+plot3_two <- data %>% 
+  ggplot(aes(sample = model_three_resids)) + 
+  stat_qq() + stat_qq_line()
+
+plot3_one 
+plot3_two
+```
+```{r}
+data %>% 
+  select(Sales_in_thousands, Horsepower, Wheelbase, Price_in_thousands, Length, model_three_resids) %>% 
+  pairs()
+```
+
+
+Model 4: Model 3 with transformations
+
+```{r}
+model_four <- lm(log(Sales_in_thousands) ~ Horsepower + Wheelbase + Price_in_thousands + Length, data=data)
+```
+
+```{r}
+vif(model_four)
+coeftest(model_four)
+
+# slightly parabolic pattern, may need to transform variables
+data %>% 
+  mutate(
+    model_four_preds = predict(model_four), 
+    model_four_resids = resid(model_four)
+  ) %>% 
+  ggplot(aes(model_four_preds, model_four_resids)) + 
+  geom_point() + 
+  stat_smooth()
+```
+
+```{r}
+# heteroskedastic errors
+plot(model_four, which=3)
+```
+
+```{r}
+# there is one outlier, but the model is much better than the others
+data <- data %>% 
+  mutate(
+    model_four_preds = predict(model_four), 
+    model_four_resids = resid(model_four)
+  ) 
+
+plot4_one <- data %>% 
+  ggplot(aes(x = model_four_resids)) + 
+  geom_histogram()
+  
+plot4_two <- data %>% 
+  ggplot(aes(sample = model_four_resids)) + 
+  stat_qq() + stat_qq_line()
+
+plot4_one 
+plot4_two
+```
+
+Model 5: what if we take out outliers and have y=sales*price?
+
+```{r}
+data[c(84,109),]
+data_no_viper <- data[-c(84,109),]
+data_no_viper <- data_no_viper %>% drop_na(Fuel_efficiency) %>% drop_na(Price_in_thousands) %>% drop_na(Curb_weight)
+model_five <- lm(log(Sales_in_thousands * Price_in_thousands) ~ Horsepower + Wheelbase + Length, data=data_no_viper)
+data_no_viper <- data_no_viper %>% 
+  mutate(
+    model_five_preds = predict(model_five), 
+    model_five_resids = resid(model_five)
+  ) 
+plot5_two <- data_no_viper %>% 
+  ggplot(aes(sample = model_five_resids)) + 
+  stat_qq() + stat_qq_line()
+plot5_two
+```
+
+
+
+```{r}
+vif(model_five)
+coeftest(model_five)
+
+# slightly parabolic pattern, may need to transform variables
+data_no_viper %>% 
+  mutate(
+    model_five_preds = predict(model_five), 
+    model_five_resids = resid(model_five)
+  ) %>% 
+  ggplot(aes(model_five_preds, model_five_resids)) + 
+  geom_point() + 
+  stat_smooth()
+```
+
+```{r}
+# heteroskedastic errors
+plot(model_five, which=3)
+```
+
+```{r}
+# there is one outlier, but the model is much better than the others
+data_no_viper <- data_no_viper %>% 
+  mutate(
+    model_five_preds = predict(model_five), 
+    model_five_resids = resid(model_five)
+  ) 
+
+plot5_one <- data_no_viper %>% 
+  ggplot(aes(x = model_five_resids)) + 
+  geom_histogram()
+  
+plot5_two <- data_no_viper %>% 
+  ggplot(aes(sample = model_five_resids)) + 
+  stat_qq() + stat_qq_line()
+
+plot5_one 
+plot5_two
+
+```
+
+
