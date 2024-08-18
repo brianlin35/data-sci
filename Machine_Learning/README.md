@@ -1,1 +1,1 @@
-TODO - add audio classification project
+TODO - add table of contents and project descriptions
