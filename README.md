@@ -1,6 +1,6 @@
 ## Brian Lin's Data Science Portfolio 
 
-Master's in Information and Data Science
+Master in Information and Data Science
 
 Univeristy of California, Berkeley
 
