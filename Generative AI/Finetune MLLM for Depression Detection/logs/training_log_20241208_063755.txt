@@ -1,0 +1,196 @@
+2024-12-08 06:37:57,350 - INFO - 
+=== Training Started ===
+2024-12-08 06:37:57,351 - INFO - Total parameters: 8,424,305,664
+2024-12-08 06:37:57,351 - INFO - Trainable parameters: 27,210,752
+2024-12-08 06:37:57,352 - INFO - Training arguments:
+TrainingArguments(
+_n_gpu=1,
+accelerator_config={'split_batches': False, 'dispatch_batches': None, 'even_batches': True, 'use_seedable_sampler': True, 'non_blocking': False, 'gradient_accumulation_kwargs': None, 'use_configured_state': False},
+adafactor=False,
+adam_beta1=0.9,
+adam_beta2=0.999,
+adam_epsilon=1e-08,
+auto_find_batch_size=False,
+average_tokens_across_devices=False,
+batch_eval_metrics=False,
+bf16=False,
+bf16_full_eval=False,
+data_seed=None,
+dataloader_drop_last=False,
+dataloader_num_workers=0,
+dataloader_persistent_workers=False,
+dataloader_pin_memory=True,
+dataloader_prefetch_factor=None,
+ddp_backend=None,
+ddp_broadcast_buffers=None,
+ddp_bucket_cap_mb=None,
+ddp_find_unused_parameters=False,
+ddp_timeout=1800,
+debug=[],
+deepspeed=None,
+disable_tqdm=False,
+dispatch_batches=None,
+do_eval=True,
+do_predict=False,
+do_train=False,
+eval_accumulation_steps=16,
+eval_delay=0,
+eval_do_concat_batches=True,
+eval_on_start=False,
+eval_steps=0.25,
+eval_strategy=steps,
+eval_use_gather_object=False,
+evaluation_strategy=None,
+fp16=False,
+fp16_backend=auto,
+fp16_full_eval=False,
+fp16_opt_level=O1,
+fsdp=[],
+fsdp_config={'min_num_params': 0, 'xla': False, 'xla_fsdp_v2': False, 'xla_fsdp_grad_ckpt': False},
+fsdp_min_num_params=0,
+fsdp_transformer_layer_cls_to_wrap=None,
+full_determinism=False,
+gradient_accumulation_steps=8,
+gradient_checkpointing=True,
+gradient_checkpointing_kwargs={'use_reentrant': False},
+greater_is_better=False,
+group_by_length=False,
+half_precision_backend=auto,
+hub_always_push=False,
+hub_model_id=None,
+hub_private_repo=None,
+hub_strategy=every_save,
+hub_token=<HUB_TOKEN>,
+ignore_data_skip=False,
+include_for_metrics=[],
+include_inputs_for_metrics=False,
+include_num_input_tokens_seen=False,
+include_tokens_per_second=False,
+jit_mode_eval=False,
+label_names=None,
+label_smoothing_factor=0.0,
+learning_rate=5e-05,
+length_column_name=length,
+load_best_model_at_end=True,
+local_rank=0,
+log_level=passive,
+log_level_replica=warning,
+log_on_each_node=True,
+logging_dir=logs_20241208_063755,
+logging_first_step=True,
+logging_nan_inf_filter=True,
+logging_steps=0.2,
+logging_strategy=steps,
+lr_scheduler_kwargs={},
+lr_scheduler_type=cosine,
+max_grad_norm=1.0,
+max_steps=-1,
+metric_for_best_model=loss,
+mp_parameters=,
+neftune_noise_alpha=None,
+no_cuda=False,
+num_train_epochs=2,
+optim=adamw_torch,
+optim_args=None,
+optim_target_modules=None,
+output_dir=/workspace/lora_model_2,
+overwrite_output_dir=False,
+past_index=-1,
+per_device_eval_batch_size=1,
+per_device_train_batch_size=1,
+prediction_loss_only=False,
+push_to_hub=False,
+push_to_hub_model_id=None,
+push_to_hub_organization=None,
+push_to_hub_token=<PUSH_TO_HUB_TOKEN>,
+ray_scope=last,
+remove_unused_columns=True,
+report_to=['tensorboard'],
+restore_callback_states_from_checkpoint=False,
+resume_from_checkpoint=/workspace/lora_model_2/checkpoint-905,
+run_name=/workspace/lora_model_2,
+save_on_each_node=False,
+save_only_model=False,
+save_safetensors=True,
+save_steps=0.25,
+save_strategy=steps,
+save_total_limit=None,
+seed=42,
+skip_memory_metrics=True,
+split_batches=None,
+tf32=None,
+torch_compile=False,
+torch_compile_backend=None,
+torch_compile_mode=None,
+torch_empty_cache_steps=100,
+torchdynamo=None,
+tpu_metrics_debug=False,
+tpu_num_cores=None,
+use_cpu=False,
+use_ipex=False,
+use_legacy_prediction_loop=False,
+use_liger_kernel=False,
+use_mps_device=False,
+warmup_ratio=0.0,
+warmup_steps=0,
+weight_decay=0.0,
+)
+2024-12-08 06:37:57,355 - INFO - Model configuration:
+Qwen2AudioConfig {
+  "_attn_implementation_autoset": true,
+  "_name_or_path": "Qwen/Qwen2-Audio-7B-Instruct",
+  "architectures": [
+    "Qwen2AudioForConditionalGeneration"
+  ],
+  "audio_config": {
+    "model_type": "qwen2_audio_encoder"
+  },
+  "audio_token_index": 151646,
+  "ignore_index": -100,
+  "model_type": "qwen2_audio",
+  "text_config": {
+    "bos_token_id": 151643,
+    "eos_token_id": 151645,
+    "intermediate_size": 11008,
+    "max_position_embeddings": 8192,
+    "model_type": "qwen2",
+    "rms_norm_eps": 1e-05,
+    "torch_dtype": "bfloat16",
+    "use_mrope": false,
+    "vocab_size": 156032
+  },
+  "transformers_version": "4.48.0.dev0",
+  "vocab_size": 156032
+}
+
+2024-12-08 06:37:57,355 - INFO - 
+Starting Epoch 0.999447818884594/2
+2024-12-08 06:47:31,853 - INFO - 
+=== Evaluation Results ===
+2024-12-08 06:47:31,853 - INFO - eval_loss: 0.4758
+2024-12-08 06:47:31,854 - INFO - eval_runtime: 32.6939
+2024-12-08 06:47:31,854 - INFO - eval_samples_per_second: 4.5880
+2024-12-08 06:47:31,854 - INFO - eval_steps_per_second: 4.5880
+2024-12-08 06:47:31,855 - INFO - epoch: 1.1049
+2024-12-08 07:37:37,933 - INFO - 
+=== Evaluation Results ===
+2024-12-08 07:37:37,934 - INFO - eval_loss: 0.3543
+2024-12-08 07:37:37,934 - INFO - eval_runtime: 33.8906
+2024-12-08 07:37:37,935 - INFO - eval_samples_per_second: 4.4260
+2024-12-08 07:37:37,935 - INFO - eval_steps_per_second: 4.4260
+2024-12-08 07:37:37,935 - INFO - epoch: 1.6571
+2024-12-08 08:08:46,478 - INFO - Epoch 1.999447818884594 completed in 5449.12s
+2024-12-08 08:08:47,024 - INFO - 
+=== Training Completed ===
+2024-12-08 08:08:47,025 - INFO - Total training time: 5449.69s
+2024-12-08 08:08:47,025 - INFO - Best validation metric: 0.35431018471717834
+2024-12-08 08:08:47,025 - INFO - Best model checkpoint: /workspace/lora_model_2/checkpoint-1500
+2024-12-08 08:08:48,341 - INFO - 
+=== Evaluation Results ===
+2024-12-08 08:08:48,341 - INFO - eval_loss: 0.6016
+2024-12-08 08:08:48,342 - INFO - eval_runtime: 32.8012
+2024-12-08 08:08:48,342 - INFO - eval_samples_per_second: 4.5730
+2024-12-08 08:08:48,342 - INFO - eval_steps_per_second: 4.5730
+2024-12-08 08:08:48,343 - INFO - epoch: 1.9994
+2024-12-08 08:08:51,972 - ERROR - No such comm target registered: jupyter.widget.control
+2024-12-08 08:08:51,974 - WARNING - No such comm: d9c724ca-8826-426f-a92d-4e748bda2ecd

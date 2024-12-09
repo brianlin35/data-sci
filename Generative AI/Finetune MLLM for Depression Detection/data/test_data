@@ -1,0 +1,919 @@
+,Participant Number,Audio Path,Output Label
+97,335,segments/P335_no_silence_segment_1.mp3,Depressed
+98,335,segments/P335_no_silence_segment_2.mp3,Depressed
+99,335,segments/P335_no_silence_segment_3.mp3,Depressed
+100,335,segments/P335_no_silence_segment_4.mp3,Depressed
+101,335,segments/P335_no_silence_segment_5.mp3,Depressed
+102,335,segments/P335_no_silence_segment_6.mp3,Depressed
+103,335,segments/P335_no_silence_segment_7.mp3,Depressed
+104,335,segments/P335_no_silence_segment_8.mp3,Depressed
+105,335,segments/P335_no_silence_segment_9.mp3,Depressed
+106,335,segments/P335_no_silence_segment_10.mp3,Depressed
+107,335,segments/P335_no_silence_segment_11.mp3,Depressed
+108,335,segments/P335_no_silence_segment_12.mp3,Depressed
+109,335,segments/P335_no_silence_segment_13.mp3,Depressed
+110,335,segments/P335_no_silence_segment_14.mp3,Depressed
+111,335,segments/P335_no_silence_segment_15.mp3,Depressed
+112,335,segments/P335_no_silence_segment_16.mp3,Depressed
+113,335,segments/P335_no_silence_segment_17.mp3,Depressed
+114,335,segments/P335_no_silence_segment_18.mp3,Depressed
+115,335,segments/P335_no_silence_segment_19.mp3,Depressed
+116,335,segments/P335_no_silence_segment_20.mp3,Depressed
+117,335,segments/P335_no_silence_segment_21.mp3,Depressed
+118,335,segments/P335_no_silence_segment_22.mp3,Depressed
+119,335,segments/P335_no_silence_segment_23.mp3,Depressed
+120,335,segments/P335_no_silence_segment_24.mp3,Depressed
+121,335,segments/P335_no_silence_segment_25.mp3,Depressed
+122,335,segments/P335_no_silence_segment_26.mp3,Depressed
+123,335,segments/P335_no_silence_segment_27.mp3,Depressed
+124,335,segments/P335_no_silence_segment_28.mp3,Depressed
+125,335,segments/P335_no_silence_segment_29.mp3,Depressed
+126,335,segments/P335_no_silence_segment_30.mp3,Depressed
+127,335,segments/P335_no_silence_segment_31.mp3,Depressed
+128,335,segments/P335_no_silence_segment_32.mp3,Depressed
+129,335,segments/P335_no_silence_segment_33.mp3,Depressed
+130,335,segments/P335_no_silence_segment_34.mp3,Depressed
+131,335,segments/P335_no_silence_segment_35.mp3,Depressed
+132,335,segments/P335_no_silence_segment_36.mp3,Depressed
+133,335,segments/P335_no_silence_segment_37.mp3,Depressed
+134,335,segments/P335_no_silence_segment_38.mp3,Depressed
+135,335,segments/P335_no_silence_segment_39.mp3,Depressed
+136,335,segments/P335_no_silence_segment_40.mp3,Depressed
+137,335,segments/P335_no_silence_segment_41.mp3,Depressed
+138,335,segments/P335_no_silence_segment_42.mp3,Depressed
+139,335,segments/P335_no_silence_segment_43.mp3,Depressed
+140,335,segments/P335_no_silence_segment_44.mp3,Depressed
+141,335,segments/P335_no_silence_segment_45.mp3,Depressed
+142,335,segments/P335_no_silence_segment_46.mp3,Depressed
+1212,472,segments/P472_no_silence_segment_1.mp3,Not Depressed
+1213,472,segments/P472_no_silence_segment_2.mp3,Not Depressed
+1214,472,segments/P472_no_silence_segment_3.mp3,Not Depressed
+1215,472,segments/P472_no_silence_segment_4.mp3,Not Depressed
+1216,472,segments/P472_no_silence_segment_5.mp3,Not Depressed
+1217,472,segments/P472_no_silence_segment_6.mp3,Not Depressed
+1218,472,segments/P472_no_silence_segment_7.mp3,Not Depressed
+1219,472,segments/P472_no_silence_segment_8.mp3,Not Depressed
+1220,472,segments/P472_no_silence_segment_9.mp3,Not Depressed
+1221,472,segments/P472_no_silence_segment_10.mp3,Not Depressed
+1222,472,segments/P472_no_silence_segment_11.mp3,Not Depressed
+1223,472,segments/P472_no_silence_segment_12.mp3,Not Depressed
+1224,472,segments/P472_no_silence_segment_13.mp3,Not Depressed
+1225,472,segments/P472_no_silence_segment_14.mp3,Not Depressed
+1226,472,segments/P472_no_silence_segment_15.mp3,Not Depressed
+1227,472,segments/P472_no_silence_segment_16.mp3,Not Depressed
+1228,472,segments/P472_no_silence_segment_17.mp3,Not Depressed
+1229,472,segments/P472_no_silence_segment_18.mp3,Not Depressed
+1230,472,segments/P472_no_silence_segment_19.mp3,Not Depressed
+1231,472,segments/P472_no_silence_segment_20.mp3,Not Depressed
+1232,472,segments/P472_no_silence_segment_21.mp3,Not Depressed
+1233,472,segments/P472_no_silence_segment_22.mp3,Not Depressed
+1234,472,segments/P472_no_silence_segment_23.mp3,Not Depressed
+1235,472,segments/P472_no_silence_segment_24.mp3,Not Depressed
+1236,472,segments/P472_no_silence_segment_25.mp3,Not Depressed
+1237,472,segments/P472_no_silence_segment_26.mp3,Not Depressed
+1238,472,segments/P472_no_silence_segment_27.mp3,Not Depressed
+1239,472,segments/P472_no_silence_segment_28.mp3,Not Depressed
+1240,472,segments/P472_no_silence_segment_29.mp3,Not Depressed
+1241,472,segments/P472_no_silence_segment_30.mp3,Not Depressed
+1242,472,segments/P472_no_silence_segment_31.mp3,Not Depressed
+1243,472,segments/P472_no_silence_segment_32.mp3,Not Depressed
+1244,472,segments/P472_no_silence_segment_33.mp3,Not Depressed
+1245,472,segments/P472_no_silence_segment_34.mp3,Not Depressed
+1246,472,segments/P472_no_silence_segment_35.mp3,Not Depressed
+1247,472,segments/P472_no_silence_segment_36.mp3,Not Depressed
+1248,472,segments/P472_no_silence_segment_37.mp3,Not Depressed
+1249,472,segments/P472_no_silence_segment_38.mp3,Not Depressed
+1250,472,segments/P472_no_silence_segment_39.mp3,Not Depressed
+1251,472,segments/P472_no_silence_segment_40.mp3,Not Depressed
+1252,472,segments/P472_no_silence_segment_41.mp3,Not Depressed
+1253,472,segments/P472_no_silence_segment_42.mp3,Not Depressed
+1254,472,segments/P472_no_silence_segment_43.mp3,Not Depressed
+1255,472,segments/P472_no_silence_segment_44.mp3,Not Depressed
+1256,472,segments/P472_no_silence_segment_45.mp3,Not Depressed
+1257,472,segments/P472_no_silence_segment_46.mp3,Not Depressed
+2879,432,segments/P432_no_silence_segment_1.mp3,Not Depressed
+2880,432,segments/P432_no_silence_segment_2.mp3,Not Depressed
+2881,432,segments/P432_no_silence_segment_3.mp3,Not Depressed
+2882,432,segments/P432_no_silence_segment_4.mp3,Not Depressed
+2883,432,segments/P432_no_silence_segment_5.mp3,Not Depressed
+2884,432,segments/P432_no_silence_segment_6.mp3,Not Depressed
+2885,432,segments/P432_no_silence_segment_7.mp3,Not Depressed
+2886,432,segments/P432_no_silence_segment_8.mp3,Not Depressed
+2887,432,segments/P432_no_silence_segment_9.mp3,Not Depressed
+2888,432,segments/P432_no_silence_segment_10.mp3,Not Depressed
+2889,432,segments/P432_no_silence_segment_11.mp3,Not Depressed
+2890,432,segments/P432_no_silence_segment_12.mp3,Not Depressed
+2891,432,segments/P432_no_silence_segment_13.mp3,Not Depressed
+2892,432,segments/P432_no_silence_segment_14.mp3,Not Depressed
+2893,432,segments/P432_no_silence_segment_15.mp3,Not Depressed
+2894,432,segments/P432_no_silence_segment_16.mp3,Not Depressed
+2895,432,segments/P432_no_silence_segment_17.mp3,Not Depressed
+2896,432,segments/P432_no_silence_segment_18.mp3,Not Depressed
+2897,432,segments/P432_no_silence_segment_19.mp3,Not Depressed
+2898,432,segments/P432_no_silence_segment_20.mp3,Not Depressed
+2899,432,segments/P432_no_silence_segment_21.mp3,Not Depressed
+2900,432,segments/P432_no_silence_segment_22.mp3,Not Depressed
+2901,432,segments/P432_no_silence_segment_23.mp3,Not Depressed
+2902,432,segments/P432_no_silence_segment_24.mp3,Not Depressed
+2903,432,segments/P432_no_silence_segment_25.mp3,Not Depressed
+2904,432,segments/P432_no_silence_segment_26.mp3,Not Depressed
+2905,432,segments/P432_no_silence_segment_27.mp3,Not Depressed
+2906,432,segments/P432_no_silence_segment_28.mp3,Not Depressed
+2907,432,segments/P432_no_silence_segment_29.mp3,Not Depressed
+2908,432,segments/P432_no_silence_segment_30.mp3,Not Depressed
+2909,432,segments/P432_no_silence_segment_31.mp3,Not Depressed
+2910,432,segments/P432_no_silence_segment_32.mp3,Not Depressed
+2911,432,segments/P432_no_silence_segment_33.mp3,Not Depressed
+2912,432,segments/P432_no_silence_segment_34.mp3,Not Depressed
+2913,432,segments/P432_no_silence_segment_35.mp3,Not Depressed
+2914,432,segments/P432_no_silence_segment_36.mp3,Not Depressed
+2915,432,segments/P432_no_silence_segment_37.mp3,Not Depressed
+2916,432,segments/P432_no_silence_segment_38.mp3,Not Depressed
+2917,432,segments/P432_no_silence_segment_39.mp3,Not Depressed
+2918,432,segments/P432_no_silence_segment_40.mp3,Not Depressed
+2919,432,segments/P432_no_silence_segment_41.mp3,Not Depressed
+2920,432,segments/P432_no_silence_segment_42.mp3,Not Depressed
+2921,432,segments/P432_no_silence_segment_43.mp3,Not Depressed
+2922,432,segments/P432_no_silence_segment_44.mp3,Not Depressed
+2923,432,segments/P432_no_silence_segment_45.mp3,Not Depressed
+2924,432,segments/P432_no_silence_segment_46.mp3,Not Depressed
+2925,432,segments/P432_no_silence_segment_47.mp3,Not Depressed
+2926,432,segments/P432_no_silence_segment_48.mp3,Not Depressed
+2927,432,segments/P432_no_silence_segment_49.mp3,Not Depressed
+2928,432,segments/P432_no_silence_segment_50.mp3,Not Depressed
+2929,432,segments/P432_no_silence_segment_51.mp3,Not Depressed
+2930,432,segments/P432_no_silence_segment_52.mp3,Not Depressed
+2931,432,segments/P432_no_silence_segment_53.mp3,Not Depressed
+2932,432,segments/P432_no_silence_segment_54.mp3,Not Depressed
+2933,432,segments/P432_no_silence_segment_55.mp3,Not Depressed
+2934,432,segments/P432_no_silence_segment_56.mp3,Not Depressed
+3355,459,segments/P459_no_silence_segment_1.mp3,Depressed
+3356,459,segments/P459_no_silence_segment_2.mp3,Depressed
+3357,459,segments/P459_no_silence_segment_3.mp3,Depressed
+3358,459,segments/P459_no_silence_segment_4.mp3,Depressed
+3359,459,segments/P459_no_silence_segment_5.mp3,Depressed
+3360,459,segments/P459_no_silence_segment_6.mp3,Depressed
+3361,459,segments/P459_no_silence_segment_7.mp3,Depressed
+3362,459,segments/P459_no_silence_segment_8.mp3,Depressed
+3363,459,segments/P459_no_silence_segment_9.mp3,Depressed
+3364,459,segments/P459_no_silence_segment_10.mp3,Depressed
+3365,459,segments/P459_no_silence_segment_11.mp3,Depressed
+3366,459,segments/P459_no_silence_segment_12.mp3,Depressed
+3367,459,segments/P459_no_silence_segment_13.mp3,Depressed
+3368,459,segments/P459_no_silence_segment_14.mp3,Depressed
+3369,459,segments/P459_no_silence_segment_15.mp3,Depressed
+3370,459,segments/P459_no_silence_segment_16.mp3,Depressed
+3371,459,segments/P459_no_silence_segment_17.mp3,Depressed
+3372,459,segments/P459_no_silence_segment_18.mp3,Depressed
+3373,459,segments/P459_no_silence_segment_19.mp3,Depressed
+3374,459,segments/P459_no_silence_segment_20.mp3,Depressed
+3375,459,segments/P459_no_silence_segment_21.mp3,Depressed
+3376,459,segments/P459_no_silence_segment_22.mp3,Depressed
+3377,459,segments/P459_no_silence_segment_23.mp3,Depressed
+3378,459,segments/P459_no_silence_segment_24.mp3,Depressed
+3379,459,segments/P459_no_silence_segment_25.mp3,Depressed
+3380,459,segments/P459_no_silence_segment_26.mp3,Depressed
+3381,459,segments/P459_no_silence_segment_27.mp3,Depressed
+3382,459,segments/P459_no_silence_segment_28.mp3,Depressed
+3383,459,segments/P459_no_silence_segment_29.mp3,Depressed
+3384,459,segments/P459_no_silence_segment_30.mp3,Depressed
+3385,459,segments/P459_no_silence_segment_31.mp3,Depressed
+3386,459,segments/P459_no_silence_segment_32.mp3,Depressed
+3387,459,segments/P459_no_silence_segment_33.mp3,Depressed
+3388,459,segments/P459_no_silence_segment_34.mp3,Depressed
+3389,459,segments/P459_no_silence_segment_35.mp3,Depressed
+3390,459,segments/P459_no_silence_segment_36.mp3,Depressed
+3391,459,segments/P459_no_silence_segment_37.mp3,Depressed
+3392,459,segments/P459_no_silence_segment_38.mp3,Depressed
+3393,459,segments/P459_no_silence_segment_39.mp3,Depressed
+3394,459,segments/P459_no_silence_segment_40.mp3,Depressed
+3597,380,segments/P380_no_silence_segment_1.mp3,Depressed
+3598,380,segments/P380_no_silence_segment_2.mp3,Depressed
+3599,380,segments/P380_no_silence_segment_3.mp3,Depressed
+3600,380,segments/P380_no_silence_segment_4.mp3,Depressed
+3601,380,segments/P380_no_silence_segment_5.mp3,Depressed
+3602,380,segments/P380_no_silence_segment_6.mp3,Depressed
+3603,380,segments/P380_no_silence_segment_7.mp3,Depressed
+3604,380,segments/P380_no_silence_segment_8.mp3,Depressed
+3605,380,segments/P380_no_silence_segment_9.mp3,Depressed
+3606,380,segments/P380_no_silence_segment_10.mp3,Depressed
+3607,380,segments/P380_no_silence_segment_11.mp3,Depressed
+3608,380,segments/P380_no_silence_segment_12.mp3,Depressed
+3609,380,segments/P380_no_silence_segment_13.mp3,Depressed
+3610,380,segments/P380_no_silence_segment_14.mp3,Depressed
+3611,380,segments/P380_no_silence_segment_15.mp3,Depressed
+3612,380,segments/P380_no_silence_segment_16.mp3,Depressed
+3613,380,segments/P380_no_silence_segment_17.mp3,Depressed
+3614,380,segments/P380_no_silence_segment_18.mp3,Depressed
+3615,380,segments/P380_no_silence_segment_19.mp3,Depressed
+3616,380,segments/P380_no_silence_segment_20.mp3,Depressed
+3617,380,segments/P380_no_silence_segment_21.mp3,Depressed
+3618,380,segments/P380_no_silence_segment_22.mp3,Depressed
+3619,380,segments/P380_no_silence_segment_23.mp3,Depressed
+3620,380,segments/P380_no_silence_segment_24.mp3,Depressed
+3621,380,segments/P380_no_silence_segment_25.mp3,Depressed
+3622,380,segments/P380_no_silence_segment_26.mp3,Depressed
+3623,380,segments/P380_no_silence_segment_27.mp3,Depressed
+3624,380,segments/P380_no_silence_segment_28.mp3,Depressed
+3625,380,segments/P380_no_silence_segment_29.mp3,Depressed
+3626,380,segments/P380_no_silence_segment_30.mp3,Depressed
+3627,380,segments/P380_no_silence_segment_31.mp3,Depressed
+3628,380,segments/P380_no_silence_segment_32.mp3,Depressed
+3629,380,segments/P380_no_silence_segment_33.mp3,Depressed
+3630,380,segments/P380_no_silence_segment_34.mp3,Depressed
+3631,380,segments/P380_no_silence_segment_35.mp3,Depressed
+3632,380,segments/P380_no_silence_segment_36.mp3,Depressed
+3633,380,segments/P380_no_silence_segment_37.mp3,Depressed
+3634,380,segments/P380_no_silence_segment_38.mp3,Depressed
+3635,380,segments/P380_no_silence_segment_39.mp3,Depressed
+3636,380,segments/P380_no_silence_segment_40.mp3,Depressed
+3637,380,segments/P380_no_silence_segment_41.mp3,Depressed
+3638,380,segments/P380_no_silence_segment_42.mp3,Depressed
+3639,380,segments/P380_no_silence_segment_43.mp3,Depressed
+3640,380,segments/P380_no_silence_segment_44.mp3,Depressed
+3641,380,segments/P380_no_silence_segment_45.mp3,Depressed
+3642,380,segments/P380_no_silence_segment_46.mp3,Depressed
+3643,380,segments/P380_no_silence_segment_47.mp3,Depressed
+3644,380,segments/P380_no_silence_segment_48.mp3,Depressed
+3645,380,segments/P380_no_silence_segment_49.mp3,Depressed
+3646,380,segments/P380_no_silence_segment_50.mp3,Depressed
+3647,380,segments/P380_no_silence_segment_51.mp3,Depressed
+3648,380,segments/P380_no_silence_segment_52.mp3,Depressed
+3649,380,segments/P380_no_silence_segment_53.mp3,Depressed
+3650,380,segments/P380_no_silence_segment_54.mp3,Depressed
+3651,380,segments/P380_no_silence_segment_55.mp3,Depressed
+3652,380,segments/P380_no_silence_segment_56.mp3,Depressed
+3653,380,segments/P380_no_silence_segment_57.mp3,Depressed
+3654,380,segments/P380_no_silence_segment_58.mp3,Depressed
+3655,380,segments/P380_no_silence_segment_59.mp3,Depressed
+3656,380,segments/P380_no_silence_segment_60.mp3,Depressed
+3657,380,segments/P380_no_silence_segment_61.mp3,Depressed
+3658,380,segments/P380_no_silence_segment_62.mp3,Depressed
+3659,380,segments/P380_no_silence_segment_63.mp3,Depressed
+3660,380,segments/P380_no_silence_segment_64.mp3,Depressed
+3661,380,segments/P380_no_silence_segment_65.mp3,Depressed
+3662,380,segments/P380_no_silence_segment_66.mp3,Depressed
+3663,380,segments/P380_no_silence_segment_67.mp3,Depressed
+3664,380,segments/P380_no_silence_segment_68.mp3,Depressed
+3665,380,segments/P380_no_silence_segment_69.mp3,Depressed
+3666,380,segments/P380_no_silence_segment_70.mp3,Depressed
+3667,380,segments/P380_no_silence_segment_71.mp3,Depressed
+3668,380,segments/P380_no_silence_segment_72.mp3,Depressed
+3669,380,segments/P380_no_silence_segment_73.mp3,Depressed
+3670,380,segments/P380_no_silence_segment_74.mp3,Depressed
+3671,380,segments/P380_no_silence_segment_75.mp3,Depressed
+3672,380,segments/P380_no_silence_segment_76.mp3,Depressed
+3673,380,segments/P380_no_silence_segment_77.mp3,Depressed
+3674,380,segments/P380_no_silence_segment_78.mp3,Depressed
+3675,380,segments/P380_no_silence_segment_79.mp3,Depressed
+3676,380,segments/P380_no_silence_segment_80.mp3,Depressed
+3677,380,segments/P380_no_silence_segment_81.mp3,Depressed
+3678,380,segments/P380_no_silence_segment_82.mp3,Depressed
+3679,380,segments/P380_no_silence_segment_83.mp3,Depressed
+3680,380,segments/P380_no_silence_segment_84.mp3,Depressed
+3681,380,segments/P380_no_silence_segment_85.mp3,Depressed
+3682,380,segments/P380_no_silence_segment_86.mp3,Depressed
+3683,380,segments/P380_no_silence_segment_87.mp3,Depressed
+3684,380,segments/P380_no_silence_segment_88.mp3,Depressed
+3685,380,segments/P380_no_silence_segment_89.mp3,Depressed
+3686,380,segments/P380_no_silence_segment_90.mp3,Depressed
+3687,380,segments/P380_no_silence_segment_91.mp3,Depressed
+3688,380,segments/P380_no_silence_segment_92.mp3,Depressed
+3689,380,segments/P380_no_silence_segment_93.mp3,Depressed
+3690,380,segments/P380_no_silence_segment_94.mp3,Depressed
+3691,380,segments/P380_no_silence_segment_95.mp3,Depressed
+3692,380,segments/P380_no_silence_segment_96.mp3,Depressed
+3693,380,segments/P380_no_silence_segment_97.mp3,Depressed
+3694,380,segments/P380_no_silence_segment_98.mp3,Depressed
+3695,380,segments/P380_no_silence_segment_99.mp3,Depressed
+3696,380,segments/P380_no_silence_segment_100.mp3,Depressed
+3697,380,segments/P380_no_silence_segment_101.mp3,Depressed
+3698,380,segments/P380_no_silence_segment_102.mp3,Depressed
+3699,380,segments/P380_no_silence_segment_103.mp3,Depressed
+3700,380,segments/P380_no_silence_segment_104.mp3,Depressed
+3701,380,segments/P380_no_silence_segment_105.mp3,Depressed
+3702,380,segments/P380_no_silence_segment_106.mp3,Depressed
+3703,380,segments/P380_no_silence_segment_107.mp3,Depressed
+3704,380,segments/P380_no_silence_segment_108.mp3,Depressed
+3705,380,segments/P380_no_silence_segment_109.mp3,Depressed
+3706,380,segments/P380_no_silence_segment_110.mp3,Depressed
+3707,380,segments/P380_no_silence_segment_111.mp3,Depressed
+3708,380,segments/P380_no_silence_segment_112.mp3,Depressed
+3709,380,segments/P380_no_silence_segment_113.mp3,Depressed
+3710,380,segments/P380_no_silence_segment_114.mp3,Depressed
+3711,380,segments/P380_no_silence_segment_115.mp3,Depressed
+3712,380,segments/P380_no_silence_segment_116.mp3,Depressed
+3713,380,segments/P380_no_silence_segment_117.mp3,Depressed
+3714,380,segments/P380_no_silence_segment_118.mp3,Depressed
+3715,380,segments/P380_no_silence_segment_119.mp3,Depressed
+3716,380,segments/P380_no_silence_segment_120.mp3,Depressed
+3717,380,segments/P380_no_silence_segment_121.mp3,Depressed
+3718,380,segments/P380_no_silence_segment_122.mp3,Depressed
+3719,380,segments/P380_no_silence_segment_123.mp3,Depressed
+3720,380,segments/P380_no_silence_segment_124.mp3,Depressed
+3721,380,segments/P380_no_silence_segment_125.mp3,Depressed
+3722,380,segments/P380_no_silence_segment_126.mp3,Depressed
+3723,380,segments/P380_no_silence_segment_127.mp3,Depressed
+3724,380,segments/P380_no_silence_segment_128.mp3,Depressed
+3725,380,segments/P380_no_silence_segment_129.mp3,Depressed
+3726,380,segments/P380_no_silence_segment_130.mp3,Depressed
+3727,380,segments/P380_no_silence_segment_131.mp3,Depressed
+4207,310,segments/P310_no_silence_segment_1.mp3,Not Depressed
+4208,310,segments/P310_no_silence_segment_2.mp3,Not Depressed
+4209,310,segments/P310_no_silence_segment_3.mp3,Not Depressed
+4210,310,segments/P310_no_silence_segment_4.mp3,Not Depressed
+4211,310,segments/P310_no_silence_segment_5.mp3,Not Depressed
+4212,310,segments/P310_no_silence_segment_6.mp3,Not Depressed
+4213,310,segments/P310_no_silence_segment_7.mp3,Not Depressed
+4214,310,segments/P310_no_silence_segment_8.mp3,Not Depressed
+4215,310,segments/P310_no_silence_segment_9.mp3,Not Depressed
+4216,310,segments/P310_no_silence_segment_10.mp3,Not Depressed
+4217,310,segments/P310_no_silence_segment_11.mp3,Not Depressed
+4218,310,segments/P310_no_silence_segment_12.mp3,Not Depressed
+4219,310,segments/P310_no_silence_segment_13.mp3,Not Depressed
+4220,310,segments/P310_no_silence_segment_14.mp3,Not Depressed
+4221,310,segments/P310_no_silence_segment_15.mp3,Not Depressed
+4222,310,segments/P310_no_silence_segment_16.mp3,Not Depressed
+4223,310,segments/P310_no_silence_segment_17.mp3,Not Depressed
+4224,310,segments/P310_no_silence_segment_18.mp3,Not Depressed
+4225,310,segments/P310_no_silence_segment_19.mp3,Not Depressed
+4226,310,segments/P310_no_silence_segment_20.mp3,Not Depressed
+4227,310,segments/P310_no_silence_segment_21.mp3,Not Depressed
+4228,310,segments/P310_no_silence_segment_22.mp3,Not Depressed
+4229,310,segments/P310_no_silence_segment_23.mp3,Not Depressed
+4230,310,segments/P310_no_silence_segment_24.mp3,Not Depressed
+4231,310,segments/P310_no_silence_segment_25.mp3,Not Depressed
+4232,310,segments/P310_no_silence_segment_26.mp3,Not Depressed
+4233,310,segments/P310_no_silence_segment_27.mp3,Not Depressed
+4234,310,segments/P310_no_silence_segment_28.mp3,Not Depressed
+4235,310,segments/P310_no_silence_segment_29.mp3,Not Depressed
+4236,310,segments/P310_no_silence_segment_30.mp3,Not Depressed
+4237,310,segments/P310_no_silence_segment_31.mp3,Not Depressed
+4238,310,segments/P310_no_silence_segment_32.mp3,Not Depressed
+4239,310,segments/P310_no_silence_segment_33.mp3,Not Depressed
+4240,310,segments/P310_no_silence_segment_34.mp3,Not Depressed
+4241,310,segments/P310_no_silence_segment_35.mp3,Not Depressed
+4242,310,segments/P310_no_silence_segment_36.mp3,Not Depressed
+4243,310,segments/P310_no_silence_segment_37.mp3,Not Depressed
+4244,310,segments/P310_no_silence_segment_38.mp3,Not Depressed
+4816,336,segments/P336_no_silence_segment_1.mp3,Not Depressed
+4817,336,segments/P336_no_silence_segment_2.mp3,Not Depressed
+4818,336,segments/P336_no_silence_segment_3.mp3,Not Depressed
+4819,336,segments/P336_no_silence_segment_4.mp3,Not Depressed
+4820,336,segments/P336_no_silence_segment_5.mp3,Not Depressed
+4821,336,segments/P336_no_silence_segment_6.mp3,Not Depressed
+4822,336,segments/P336_no_silence_segment_7.mp3,Not Depressed
+4823,336,segments/P336_no_silence_segment_8.mp3,Not Depressed
+4824,336,segments/P336_no_silence_segment_9.mp3,Not Depressed
+4825,336,segments/P336_no_silence_segment_10.mp3,Not Depressed
+4826,336,segments/P336_no_silence_segment_11.mp3,Not Depressed
+4827,336,segments/P336_no_silence_segment_12.mp3,Not Depressed
+4828,336,segments/P336_no_silence_segment_13.mp3,Not Depressed
+4829,336,segments/P336_no_silence_segment_14.mp3,Not Depressed
+4830,336,segments/P336_no_silence_segment_15.mp3,Not Depressed
+4831,336,segments/P336_no_silence_segment_16.mp3,Not Depressed
+4832,336,segments/P336_no_silence_segment_17.mp3,Not Depressed
+4833,336,segments/P336_no_silence_segment_18.mp3,Not Depressed
+4834,336,segments/P336_no_silence_segment_19.mp3,Not Depressed
+4835,336,segments/P336_no_silence_segment_20.mp3,Not Depressed
+4836,336,segments/P336_no_silence_segment_21.mp3,Not Depressed
+4837,336,segments/P336_no_silence_segment_22.mp3,Not Depressed
+4838,336,segments/P336_no_silence_segment_23.mp3,Not Depressed
+4839,336,segments/P336_no_silence_segment_24.mp3,Not Depressed
+4840,336,segments/P336_no_silence_segment_25.mp3,Not Depressed
+4841,336,segments/P336_no_silence_segment_26.mp3,Not Depressed
+4842,336,segments/P336_no_silence_segment_27.mp3,Not Depressed
+4843,336,segments/P336_no_silence_segment_28.mp3,Not Depressed
+4844,336,segments/P336_no_silence_segment_29.mp3,Not Depressed
+4845,336,segments/P336_no_silence_segment_30.mp3,Not Depressed
+4846,336,segments/P336_no_silence_segment_31.mp3,Not Depressed
+4847,336,segments/P336_no_silence_segment_32.mp3,Not Depressed
+4848,336,segments/P336_no_silence_segment_33.mp3,Not Depressed
+4849,336,segments/P336_no_silence_segment_34.mp3,Not Depressed
+4850,336,segments/P336_no_silence_segment_35.mp3,Not Depressed
+4851,336,segments/P336_no_silence_segment_36.mp3,Not Depressed
+4852,336,segments/P336_no_silence_segment_37.mp3,Not Depressed
+4853,336,segments/P336_no_silence_segment_38.mp3,Not Depressed
+4854,336,segments/P336_no_silence_segment_39.mp3,Not Depressed
+4855,336,segments/P336_no_silence_segment_40.mp3,Not Depressed
+4856,336,segments/P336_no_silence_segment_41.mp3,Not Depressed
+4857,336,segments/P336_no_silence_segment_42.mp3,Not Depressed
+4858,336,segments/P336_no_silence_segment_43.mp3,Not Depressed
+4859,336,segments/P336_no_silence_segment_44.mp3,Not Depressed
+4860,336,segments/P336_no_silence_segment_45.mp3,Not Depressed
+4861,336,segments/P336_no_silence_segment_46.mp3,Not Depressed
+4954,399,segments/P399_no_silence_segment_1.mp3,Not Depressed
+4955,399,segments/P399_no_silence_segment_2.mp3,Not Depressed
+4956,399,segments/P399_no_silence_segment_3.mp3,Not Depressed
+4957,399,segments/P399_no_silence_segment_4.mp3,Not Depressed
+4958,399,segments/P399_no_silence_segment_5.mp3,Not Depressed
+4959,399,segments/P399_no_silence_segment_6.mp3,Not Depressed
+4960,399,segments/P399_no_silence_segment_7.mp3,Not Depressed
+4961,399,segments/P399_no_silence_segment_8.mp3,Not Depressed
+4962,399,segments/P399_no_silence_segment_9.mp3,Not Depressed
+4963,399,segments/P399_no_silence_segment_10.mp3,Not Depressed
+4964,399,segments/P399_no_silence_segment_11.mp3,Not Depressed
+4965,399,segments/P399_no_silence_segment_12.mp3,Not Depressed
+4966,399,segments/P399_no_silence_segment_13.mp3,Not Depressed
+4967,399,segments/P399_no_silence_segment_14.mp3,Not Depressed
+4968,399,segments/P399_no_silence_segment_15.mp3,Not Depressed
+4969,399,segments/P399_no_silence_segment_16.mp3,Not Depressed
+4970,399,segments/P399_no_silence_segment_17.mp3,Not Depressed
+4971,399,segments/P399_no_silence_segment_18.mp3,Not Depressed
+4972,399,segments/P399_no_silence_segment_19.mp3,Not Depressed
+4973,399,segments/P399_no_silence_segment_20.mp3,Not Depressed
+4974,399,segments/P399_no_silence_segment_21.mp3,Not Depressed
+4975,399,segments/P399_no_silence_segment_22.mp3,Not Depressed
+4976,399,segments/P399_no_silence_segment_23.mp3,Not Depressed
+4977,399,segments/P399_no_silence_segment_24.mp3,Not Depressed
+4978,399,segments/P399_no_silence_segment_25.mp3,Not Depressed
+4979,399,segments/P399_no_silence_segment_26.mp3,Not Depressed
+4980,399,segments/P399_no_silence_segment_27.mp3,Not Depressed
+4981,399,segments/P399_no_silence_segment_28.mp3,Not Depressed
+4982,399,segments/P399_no_silence_segment_29.mp3,Not Depressed
+4983,399,segments/P399_no_silence_segment_30.mp3,Not Depressed
+4984,399,segments/P399_no_silence_segment_31.mp3,Not Depressed
+4985,399,segments/P399_no_silence_segment_32.mp3,Not Depressed
+4986,399,segments/P399_no_silence_segment_33.mp3,Not Depressed
+4987,399,segments/P399_no_silence_segment_34.mp3,Not Depressed
+4988,399,segments/P399_no_silence_segment_35.mp3,Not Depressed
+4989,399,segments/P399_no_silence_segment_36.mp3,Not Depressed
+4990,399,segments/P399_no_silence_segment_37.mp3,Not Depressed
+4991,399,segments/P399_no_silence_segment_38.mp3,Not Depressed
+4992,399,segments/P399_no_silence_segment_39.mp3,Not Depressed
+5116,363,segments/P363_no_silence_segment_1.mp3,Not Depressed
+5117,363,segments/P363_no_silence_segment_2.mp3,Not Depressed
+5118,363,segments/P363_no_silence_segment_3.mp3,Not Depressed
+5119,363,segments/P363_no_silence_segment_4.mp3,Not Depressed
+5120,363,segments/P363_no_silence_segment_5.mp3,Not Depressed
+5121,363,segments/P363_no_silence_segment_6.mp3,Not Depressed
+5122,363,segments/P363_no_silence_segment_7.mp3,Not Depressed
+5123,363,segments/P363_no_silence_segment_8.mp3,Not Depressed
+5124,363,segments/P363_no_silence_segment_9.mp3,Not Depressed
+5125,363,segments/P363_no_silence_segment_10.mp3,Not Depressed
+5126,363,segments/P363_no_silence_segment_11.mp3,Not Depressed
+5127,363,segments/P363_no_silence_segment_12.mp3,Not Depressed
+5128,363,segments/P363_no_silence_segment_13.mp3,Not Depressed
+5129,363,segments/P363_no_silence_segment_14.mp3,Not Depressed
+5130,363,segments/P363_no_silence_segment_15.mp3,Not Depressed
+5131,363,segments/P363_no_silence_segment_16.mp3,Not Depressed
+5132,363,segments/P363_no_silence_segment_17.mp3,Not Depressed
+5133,363,segments/P363_no_silence_segment_18.mp3,Not Depressed
+5134,363,segments/P363_no_silence_segment_19.mp3,Not Depressed
+5135,363,segments/P363_no_silence_segment_20.mp3,Not Depressed
+5136,363,segments/P363_no_silence_segment_21.mp3,Not Depressed
+5137,363,segments/P363_no_silence_segment_22.mp3,Not Depressed
+5138,363,segments/P363_no_silence_segment_23.mp3,Not Depressed
+5139,363,segments/P363_no_silence_segment_24.mp3,Not Depressed
+5140,363,segments/P363_no_silence_segment_25.mp3,Not Depressed
+5141,363,segments/P363_no_silence_segment_26.mp3,Not Depressed
+5142,363,segments/P363_no_silence_segment_27.mp3,Not Depressed
+5143,363,segments/P363_no_silence_segment_28.mp3,Not Depressed
+5144,363,segments/P363_no_silence_segment_29.mp3,Not Depressed
+5145,363,segments/P363_no_silence_segment_30.mp3,Not Depressed
+5146,363,segments/P363_no_silence_segment_31.mp3,Not Depressed
+5147,363,segments/P363_no_silence_segment_32.mp3,Not Depressed
+5148,363,segments/P363_no_silence_segment_33.mp3,Not Depressed
+5149,363,segments/P363_no_silence_segment_34.mp3,Not Depressed
+5150,363,segments/P363_no_silence_segment_35.mp3,Not Depressed
+5151,363,segments/P363_no_silence_segment_36.mp3,Not Depressed
+5152,363,segments/P363_no_silence_segment_37.mp3,Not Depressed
+5153,363,segments/P363_no_silence_segment_38.mp3,Not Depressed
+5154,363,segments/P363_no_silence_segment_39.mp3,Not Depressed
+5155,363,segments/P363_no_silence_segment_40.mp3,Not Depressed
+5156,363,segments/P363_no_silence_segment_41.mp3,Not Depressed
+5157,363,segments/P363_no_silence_segment_42.mp3,Not Depressed
+5158,363,segments/P363_no_silence_segment_43.mp3,Not Depressed
+5159,363,segments/P363_no_silence_segment_44.mp3,Not Depressed
+5160,363,segments/P363_no_silence_segment_45.mp3,Not Depressed
+5161,363,segments/P363_no_silence_segment_46.mp3,Not Depressed
+5162,363,segments/P363_no_silence_segment_47.mp3,Not Depressed
+5163,363,segments/P363_no_silence_segment_48.mp3,Not Depressed
+5164,363,segments/P363_no_silence_segment_49.mp3,Not Depressed
+5165,363,segments/P363_no_silence_segment_50.mp3,Not Depressed
+5166,363,segments/P363_no_silence_segment_51.mp3,Not Depressed
+5167,363,segments/P363_no_silence_segment_52.mp3,Not Depressed
+5168,363,segments/P363_no_silence_segment_53.mp3,Not Depressed
+5169,363,segments/P363_no_silence_segment_54.mp3,Not Depressed
+5170,363,segments/P363_no_silence_segment_55.mp3,Not Depressed
+5171,363,segments/P363_no_silence_segment_56.mp3,Not Depressed
+5172,363,segments/P363_no_silence_segment_57.mp3,Not Depressed
+5173,363,segments/P363_no_silence_segment_58.mp3,Not Depressed
+5174,363,segments/P363_no_silence_segment_59.mp3,Not Depressed
+5175,363,segments/P363_no_silence_segment_60.mp3,Not Depressed
+5176,363,segments/P363_no_silence_segment_61.mp3,Not Depressed
+5177,363,segments/P363_no_silence_segment_62.mp3,Not Depressed
+5178,363,segments/P363_no_silence_segment_63.mp3,Not Depressed
+5179,363,segments/P363_no_silence_segment_64.mp3,Not Depressed
+5180,363,segments/P363_no_silence_segment_65.mp3,Not Depressed
+5181,363,segments/P363_no_silence_segment_66.mp3,Not Depressed
+5182,363,segments/P363_no_silence_segment_67.mp3,Not Depressed
+5183,363,segments/P363_no_silence_segment_68.mp3,Not Depressed
+5184,363,segments/P363_no_silence_segment_69.mp3,Not Depressed
+5185,363,segments/P363_no_silence_segment_70.mp3,Not Depressed
+5186,363,segments/P363_no_silence_segment_71.mp3,Not Depressed
+5187,363,segments/P363_no_silence_segment_72.mp3,Not Depressed
+5188,363,segments/P363_no_silence_segment_73.mp3,Not Depressed
+5189,363,segments/P363_no_silence_segment_74.mp3,Not Depressed
+5190,363,segments/P363_no_silence_segment_75.mp3,Not Depressed
+5191,363,segments/P363_no_silence_segment_76.mp3,Not Depressed
+5192,363,segments/P363_no_silence_segment_77.mp3,Not Depressed
+5193,363,segments/P363_no_silence_segment_78.mp3,Not Depressed
+5194,363,segments/P363_no_silence_segment_79.mp3,Not Depressed
+5195,363,segments/P363_no_silence_segment_80.mp3,Not Depressed
+5196,363,segments/P363_no_silence_segment_81.mp3,Not Depressed
+5197,363,segments/P363_no_silence_segment_82.mp3,Not Depressed
+5198,363,segments/P363_no_silence_segment_83.mp3,Not Depressed
+5199,363,segments/P363_no_silence_segment_84.mp3,Not Depressed
+5381,330,segments/P330_no_silence_segment_1.mp3,Depressed
+5382,330,segments/P330_no_silence_segment_2.mp3,Depressed
+5383,330,segments/P330_no_silence_segment_3.mp3,Depressed
+5384,330,segments/P330_no_silence_segment_4.mp3,Depressed
+5385,330,segments/P330_no_silence_segment_5.mp3,Depressed
+5386,330,segments/P330_no_silence_segment_6.mp3,Depressed
+5387,330,segments/P330_no_silence_segment_7.mp3,Depressed
+5388,330,segments/P330_no_silence_segment_8.mp3,Depressed
+5389,330,segments/P330_no_silence_segment_9.mp3,Depressed
+5390,330,segments/P330_no_silence_segment_10.mp3,Depressed
+5391,330,segments/P330_no_silence_segment_11.mp3,Depressed
+5392,330,segments/P330_no_silence_segment_12.mp3,Depressed
+5393,330,segments/P330_no_silence_segment_13.mp3,Depressed
+5394,330,segments/P330_no_silence_segment_14.mp3,Depressed
+5395,330,segments/P330_no_silence_segment_15.mp3,Depressed
+5396,330,segments/P330_no_silence_segment_16.mp3,Depressed
+5397,330,segments/P330_no_silence_segment_17.mp3,Depressed
+5398,330,segments/P330_no_silence_segment_18.mp3,Depressed
+5399,330,segments/P330_no_silence_segment_19.mp3,Depressed
+5400,330,segments/P330_no_silence_segment_20.mp3,Depressed
+5401,330,segments/P330_no_silence_segment_21.mp3,Depressed
+5402,330,segments/P330_no_silence_segment_22.mp3,Depressed
+5403,330,segments/P330_no_silence_segment_23.mp3,Depressed
+5404,330,segments/P330_no_silence_segment_24.mp3,Depressed
+5405,330,segments/P330_no_silence_segment_25.mp3,Depressed
+5455,301,segments/P301_no_silence_segment_1.mp3,Not Depressed
+5456,301,segments/P301_no_silence_segment_2.mp3,Not Depressed
+5457,301,segments/P301_no_silence_segment_3.mp3,Not Depressed
+5458,301,segments/P301_no_silence_segment_4.mp3,Not Depressed
+5459,301,segments/P301_no_silence_segment_5.mp3,Not Depressed
+5460,301,segments/P301_no_silence_segment_6.mp3,Not Depressed
+5461,301,segments/P301_no_silence_segment_7.mp3,Not Depressed
+5462,301,segments/P301_no_silence_segment_8.mp3,Not Depressed
+5463,301,segments/P301_no_silence_segment_9.mp3,Not Depressed
+5464,301,segments/P301_no_silence_segment_10.mp3,Not Depressed
+5465,301,segments/P301_no_silence_segment_11.mp3,Not Depressed
+5466,301,segments/P301_no_silence_segment_12.mp3,Not Depressed
+5467,301,segments/P301_no_silence_segment_13.mp3,Not Depressed
+5468,301,segments/P301_no_silence_segment_14.mp3,Not Depressed
+5469,301,segments/P301_no_silence_segment_15.mp3,Not Depressed
+5470,301,segments/P301_no_silence_segment_16.mp3,Not Depressed
+5471,301,segments/P301_no_silence_segment_17.mp3,Not Depressed
+5472,301,segments/P301_no_silence_segment_18.mp3,Not Depressed
+5473,301,segments/P301_no_silence_segment_19.mp3,Not Depressed
+5474,301,segments/P301_no_silence_segment_20.mp3,Not Depressed
+5475,301,segments/P301_no_silence_segment_21.mp3,Not Depressed
+5476,301,segments/P301_no_silence_segment_22.mp3,Not Depressed
+5477,301,segments/P301_no_silence_segment_23.mp3,Not Depressed
+5478,301,segments/P301_no_silence_segment_24.mp3,Not Depressed
+5479,301,segments/P301_no_silence_segment_25.mp3,Not Depressed
+5480,301,segments/P301_no_silence_segment_26.mp3,Not Depressed
+5481,301,segments/P301_no_silence_segment_27.mp3,Not Depressed
+5482,301,segments/P301_no_silence_segment_28.mp3,Not Depressed
+5483,301,segments/P301_no_silence_segment_29.mp3,Not Depressed
+5484,301,segments/P301_no_silence_segment_30.mp3,Not Depressed
+5485,301,segments/P301_no_silence_segment_31.mp3,Not Depressed
+5486,301,segments/P301_no_silence_segment_32.mp3,Not Depressed
+5487,301,segments/P301_no_silence_segment_33.mp3,Not Depressed
+5488,301,segments/P301_no_silence_segment_34.mp3,Not Depressed
+5489,301,segments/P301_no_silence_segment_35.mp3,Not Depressed
+5490,301,segments/P301_no_silence_segment_36.mp3,Not Depressed
+5491,301,segments/P301_no_silence_segment_37.mp3,Not Depressed
+5492,301,segments/P301_no_silence_segment_38.mp3,Not Depressed
+5493,301,segments/P301_no_silence_segment_39.mp3,Not Depressed
+5494,301,segments/P301_no_silence_segment_40.mp3,Not Depressed
+5495,301,segments/P301_no_silence_segment_41.mp3,Not Depressed
+5496,301,segments/P301_no_silence_segment_42.mp3,Not Depressed
+5497,301,segments/P301_no_silence_segment_43.mp3,Not Depressed
+5498,301,segments/P301_no_silence_segment_44.mp3,Not Depressed
+5499,301,segments/P301_no_silence_segment_45.mp3,Not Depressed
+5500,301,segments/P301_no_silence_segment_46.mp3,Not Depressed
+5501,301,segments/P301_no_silence_segment_47.mp3,Not Depressed
+6329,470,segments/P470_no_silence_segment_1.mp3,Not Depressed
+6330,470,segments/P470_no_silence_segment_2.mp3,Not Depressed
+6331,470,segments/P470_no_silence_segment_3.mp3,Not Depressed
+6332,470,segments/P470_no_silence_segment_4.mp3,Not Depressed
+6333,470,segments/P470_no_silence_segment_5.mp3,Not Depressed
+6334,470,segments/P470_no_silence_segment_6.mp3,Not Depressed
+6335,470,segments/P470_no_silence_segment_7.mp3,Not Depressed
+6336,470,segments/P470_no_silence_segment_8.mp3,Not Depressed
+6337,470,segments/P470_no_silence_segment_9.mp3,Not Depressed
+6338,470,segments/P470_no_silence_segment_10.mp3,Not Depressed
+6339,470,segments/P470_no_silence_segment_11.mp3,Not Depressed
+6340,470,segments/P470_no_silence_segment_12.mp3,Not Depressed
+6341,470,segments/P470_no_silence_segment_13.mp3,Not Depressed
+6342,470,segments/P470_no_silence_segment_14.mp3,Not Depressed
+6343,470,segments/P470_no_silence_segment_15.mp3,Not Depressed
+6344,470,segments/P470_no_silence_segment_16.mp3,Not Depressed
+6345,470,segments/P470_no_silence_segment_17.mp3,Not Depressed
+6346,470,segments/P470_no_silence_segment_18.mp3,Not Depressed
+6347,470,segments/P470_no_silence_segment_19.mp3,Not Depressed
+6348,470,segments/P470_no_silence_segment_20.mp3,Not Depressed
+6349,470,segments/P470_no_silence_segment_21.mp3,Not Depressed
+6350,470,segments/P470_no_silence_segment_22.mp3,Not Depressed
+6351,470,segments/P470_no_silence_segment_23.mp3,Not Depressed
+6352,470,segments/P470_no_silence_segment_24.mp3,Not Depressed
+6353,470,segments/P470_no_silence_segment_25.mp3,Not Depressed
+6354,470,segments/P470_no_silence_segment_26.mp3,Not Depressed
+6355,470,segments/P470_no_silence_segment_27.mp3,Not Depressed
+6356,470,segments/P470_no_silence_segment_28.mp3,Not Depressed
+6357,470,segments/P470_no_silence_segment_29.mp3,Not Depressed
+6358,470,segments/P470_no_silence_segment_30.mp3,Not Depressed
+6359,470,segments/P470_no_silence_segment_31.mp3,Not Depressed
+6360,470,segments/P470_no_silence_segment_32.mp3,Not Depressed
+6361,470,segments/P470_no_silence_segment_33.mp3,Not Depressed
+6362,470,segments/P470_no_silence_segment_34.mp3,Not Depressed
+6363,470,segments/P470_no_silence_segment_35.mp3,Not Depressed
+6364,470,segments/P470_no_silence_segment_36.mp3,Not Depressed
+6365,470,segments/P470_no_silence_segment_37.mp3,Not Depressed
+6366,470,segments/P470_no_silence_segment_38.mp3,Not Depressed
+6367,470,segments/P470_no_silence_segment_39.mp3,Not Depressed
+6368,470,segments/P470_no_silence_segment_40.mp3,Not Depressed
+6369,470,segments/P470_no_silence_segment_41.mp3,Not Depressed
+6370,470,segments/P470_no_silence_segment_42.mp3,Not Depressed
+6371,470,segments/P470_no_silence_segment_43.mp3,Not Depressed
+6372,470,segments/P470_no_silence_segment_44.mp3,Not Depressed
+6373,470,segments/P470_no_silence_segment_45.mp3,Not Depressed
+6374,470,segments/P470_no_silence_segment_46.mp3,Not Depressed
+6375,470,segments/P470_no_silence_segment_47.mp3,Not Depressed
+6376,470,segments/P470_no_silence_segment_48.mp3,Not Depressed
+6377,470,segments/P470_no_silence_segment_49.mp3,Not Depressed
+6378,470,segments/P470_no_silence_segment_50.mp3,Not Depressed
+6379,470,segments/P470_no_silence_segment_51.mp3,Not Depressed
+6380,470,segments/P470_no_silence_segment_52.mp3,Not Depressed
+6381,470,segments/P470_no_silence_segment_53.mp3,Not Depressed
+6382,470,segments/P470_no_silence_segment_54.mp3,Not Depressed
+6383,470,segments/P470_no_silence_segment_55.mp3,Not Depressed
+6384,470,segments/P470_no_silence_segment_56.mp3,Not Depressed
+6987,439,segments/P439_no_silence_segment_1.mp3,Not Depressed
+6988,439,segments/P439_no_silence_segment_2.mp3,Not Depressed
+6989,439,segments/P439_no_silence_segment_3.mp3,Not Depressed
+6990,439,segments/P439_no_silence_segment_4.mp3,Not Depressed
+6991,439,segments/P439_no_silence_segment_5.mp3,Not Depressed
+6992,439,segments/P439_no_silence_segment_6.mp3,Not Depressed
+6993,439,segments/P439_no_silence_segment_7.mp3,Not Depressed
+6994,439,segments/P439_no_silence_segment_8.mp3,Not Depressed
+6995,439,segments/P439_no_silence_segment_9.mp3,Not Depressed
+6996,439,segments/P439_no_silence_segment_10.mp3,Not Depressed
+6997,439,segments/P439_no_silence_segment_11.mp3,Not Depressed
+6998,439,segments/P439_no_silence_segment_12.mp3,Not Depressed
+6999,439,segments/P439_no_silence_segment_13.mp3,Not Depressed
+7000,439,segments/P439_no_silence_segment_14.mp3,Not Depressed
+7001,439,segments/P439_no_silence_segment_15.mp3,Not Depressed
+7002,439,segments/P439_no_silence_segment_16.mp3,Not Depressed
+7003,439,segments/P439_no_silence_segment_17.mp3,Not Depressed
+7004,439,segments/P439_no_silence_segment_18.mp3,Not Depressed
+7005,439,segments/P439_no_silence_segment_19.mp3,Not Depressed
+7006,439,segments/P439_no_silence_segment_20.mp3,Not Depressed
+7007,439,segments/P439_no_silence_segment_21.mp3,Not Depressed
+7008,439,segments/P439_no_silence_segment_22.mp3,Not Depressed
+7009,439,segments/P439_no_silence_segment_23.mp3,Not Depressed
+7010,439,segments/P439_no_silence_segment_24.mp3,Not Depressed
+7011,439,segments/P439_no_silence_segment_25.mp3,Not Depressed
+7012,439,segments/P439_no_silence_segment_26.mp3,Not Depressed
+7013,439,segments/P439_no_silence_segment_27.mp3,Not Depressed
+7014,439,segments/P439_no_silence_segment_28.mp3,Not Depressed
+7015,439,segments/P439_no_silence_segment_29.mp3,Not Depressed
+7016,439,segments/P439_no_silence_segment_30.mp3,Not Depressed
+7017,439,segments/P439_no_silence_segment_31.mp3,Not Depressed
+7018,439,segments/P439_no_silence_segment_32.mp3,Not Depressed
+7019,439,segments/P439_no_silence_segment_33.mp3,Not Depressed
+7020,439,segments/P439_no_silence_segment_34.mp3,Not Depressed
+7021,439,segments/P439_no_silence_segment_35.mp3,Not Depressed
+7022,439,segments/P439_no_silence_segment_36.mp3,Not Depressed
+7023,439,segments/P439_no_silence_segment_37.mp3,Not Depressed
+7024,439,segments/P439_no_silence_segment_38.mp3,Not Depressed
+7025,439,segments/P439_no_silence_segment_39.mp3,Not Depressed
+7026,439,segments/P439_no_silence_segment_40.mp3,Not Depressed
+7027,439,segments/P439_no_silence_segment_41.mp3,Not Depressed
+7028,439,segments/P439_no_silence_segment_42.mp3,Not Depressed
+7029,439,segments/P439_no_silence_segment_43.mp3,Not Depressed
+7030,439,segments/P439_no_silence_segment_44.mp3,Not Depressed
+7031,439,segments/P439_no_silence_segment_45.mp3,Not Depressed
+7032,439,segments/P439_no_silence_segment_46.mp3,Not Depressed
+7033,439,segments/P439_no_silence_segment_47.mp3,Not Depressed
+7034,439,segments/P439_no_silence_segment_48.mp3,Not Depressed
+7035,439,segments/P439_no_silence_segment_49.mp3,Not Depressed
+7036,439,segments/P439_no_silence_segment_50.mp3,Not Depressed
+7037,439,segments/P439_no_silence_segment_51.mp3,Not Depressed
+7038,439,segments/P439_no_silence_segment_52.mp3,Not Depressed
+7039,439,segments/P439_no_silence_segment_53.mp3,Not Depressed
+7040,439,segments/P439_no_silence_segment_54.mp3,Not Depressed
+7041,439,segments/P439_no_silence_segment_55.mp3,Not Depressed
+7042,439,segments/P439_no_silence_segment_56.mp3,Not Depressed
+7043,439,segments/P439_no_silence_segment_57.mp3,Not Depressed
+7044,439,segments/P439_no_silence_segment_58.mp3,Not Depressed
+7045,439,segments/P439_no_silence_segment_59.mp3,Not Depressed
+7046,439,segments/P439_no_silence_segment_60.mp3,Not Depressed
+7047,439,segments/P439_no_silence_segment_61.mp3,Not Depressed
+7048,439,segments/P439_no_silence_segment_62.mp3,Not Depressed
+7049,439,segments/P439_no_silence_segment_63.mp3,Not Depressed
+7050,439,segments/P439_no_silence_segment_64.mp3,Not Depressed
+7051,439,segments/P439_no_silence_segment_65.mp3,Not Depressed
+7052,439,segments/P439_no_silence_segment_66.mp3,Not Depressed
+7053,439,segments/P439_no_silence_segment_67.mp3,Not Depressed
+7054,439,segments/P439_no_silence_segment_68.mp3,Not Depressed
+7055,439,segments/P439_no_silence_segment_69.mp3,Not Depressed
+7056,439,segments/P439_no_silence_segment_70.mp3,Not Depressed
+7057,439,segments/P439_no_silence_segment_71.mp3,Not Depressed
+7058,439,segments/P439_no_silence_segment_72.mp3,Not Depressed
+7059,439,segments/P439_no_silence_segment_73.mp3,Not Depressed
+7060,439,segments/P439_no_silence_segment_74.mp3,Not Depressed
+7061,439,segments/P439_no_silence_segment_75.mp3,Not Depressed
+7062,439,segments/P439_no_silence_segment_76.mp3,Not Depressed
+7063,439,segments/P439_no_silence_segment_77.mp3,Not Depressed
+7064,439,segments/P439_no_silence_segment_78.mp3,Not Depressed
+7065,439,segments/P439_no_silence_segment_79.mp3,Not Depressed
+7066,439,segments/P439_no_silence_segment_80.mp3,Not Depressed
+7067,439,segments/P439_no_silence_segment_81.mp3,Not Depressed
+7068,439,segments/P439_no_silence_segment_82.mp3,Not Depressed
+7069,439,segments/P439_no_silence_segment_83.mp3,Not Depressed
+7070,439,segments/P439_no_silence_segment_84.mp3,Not Depressed
+7071,439,segments/P439_no_silence_segment_85.mp3,Not Depressed
+7072,439,segments/P439_no_silence_segment_86.mp3,Not Depressed
+7073,439,segments/P439_no_silence_segment_87.mp3,Not Depressed
+7074,439,segments/P439_no_silence_segment_88.mp3,Not Depressed
+7075,439,segments/P439_no_silence_segment_89.mp3,Not Depressed
+7076,439,segments/P439_no_silence_segment_90.mp3,Not Depressed
+7077,439,segments/P439_no_silence_segment_91.mp3,Not Depressed
+7078,439,segments/P439_no_silence_segment_92.mp3,Not Depressed
+7079,439,segments/P439_no_silence_segment_93.mp3,Not Depressed
+7080,439,segments/P439_no_silence_segment_94.mp3,Not Depressed
+7081,439,segments/P439_no_silence_segment_95.mp3,Not Depressed
+7082,439,segments/P439_no_silence_segment_96.mp3,Not Depressed
+7083,439,segments/P439_no_silence_segment_97.mp3,Not Depressed
+7380,462,segments/P462_no_silence_segment_1.mp3,Not Depressed
+7381,462,segments/P462_no_silence_segment_2.mp3,Not Depressed
+7382,462,segments/P462_no_silence_segment_3.mp3,Not Depressed
+7383,462,segments/P462_no_silence_segment_4.mp3,Not Depressed
+7384,462,segments/P462_no_silence_segment_5.mp3,Not Depressed
+7385,462,segments/P462_no_silence_segment_6.mp3,Not Depressed
+7386,462,segments/P462_no_silence_segment_7.mp3,Not Depressed
+7387,462,segments/P462_no_silence_segment_8.mp3,Not Depressed
+7388,462,segments/P462_no_silence_segment_9.mp3,Not Depressed
+7389,462,segments/P462_no_silence_segment_10.mp3,Not Depressed
+7390,462,segments/P462_no_silence_segment_11.mp3,Not Depressed
+7391,462,segments/P462_no_silence_segment_12.mp3,Not Depressed
+7392,462,segments/P462_no_silence_segment_13.mp3,Not Depressed
+7393,462,segments/P462_no_silence_segment_14.mp3,Not Depressed
+7394,462,segments/P462_no_silence_segment_15.mp3,Not Depressed
+7395,462,segments/P462_no_silence_segment_16.mp3,Not Depressed
+7396,462,segments/P462_no_silence_segment_17.mp3,Not Depressed
+7397,462,segments/P462_no_silence_segment_18.mp3,Not Depressed
+7398,462,segments/P462_no_silence_segment_19.mp3,Not Depressed
+7399,462,segments/P462_no_silence_segment_20.mp3,Not Depressed
+7400,462,segments/P462_no_silence_segment_21.mp3,Not Depressed
+7401,462,segments/P462_no_silence_segment_22.mp3,Not Depressed
+7402,462,segments/P462_no_silence_segment_23.mp3,Not Depressed
+7403,462,segments/P462_no_silence_segment_24.mp3,Not Depressed
+7404,462,segments/P462_no_silence_segment_25.mp3,Not Depressed
+7405,462,segments/P462_no_silence_segment_26.mp3,Not Depressed
+7406,462,segments/P462_no_silence_segment_27.mp3,Not Depressed
+7407,462,segments/P462_no_silence_segment_28.mp3,Not Depressed
+7408,462,segments/P462_no_silence_segment_29.mp3,Not Depressed
+7409,462,segments/P462_no_silence_segment_30.mp3,Not Depressed
+7410,462,segments/P462_no_silence_segment_31.mp3,Not Depressed
+7411,462,segments/P462_no_silence_segment_32.mp3,Not Depressed
+7412,462,segments/P462_no_silence_segment_33.mp3,Not Depressed
+7413,462,segments/P462_no_silence_segment_34.mp3,Not Depressed
+7414,462,segments/P462_no_silence_segment_35.mp3,Not Depressed
+7415,462,segments/P462_no_silence_segment_36.mp3,Not Depressed
+7416,462,segments/P462_no_silence_segment_37.mp3,Not Depressed
+7417,462,segments/P462_no_silence_segment_38.mp3,Not Depressed
+7418,462,segments/P462_no_silence_segment_39.mp3,Not Depressed
+7419,462,segments/P462_no_silence_segment_40.mp3,Not Depressed
+7420,462,segments/P462_no_silence_segment_41.mp3,Not Depressed
+7421,462,segments/P462_no_silence_segment_42.mp3,Not Depressed
+7422,462,segments/P462_no_silence_segment_43.mp3,Not Depressed
+7423,462,segments/P462_no_silence_segment_44.mp3,Not Depressed
+7424,462,segments/P462_no_silence_segment_45.mp3,Not Depressed
+7425,462,segments/P462_no_silence_segment_46.mp3,Not Depressed
+7426,462,segments/P462_no_silence_segment_47.mp3,Not Depressed
+7427,462,segments/P462_no_silence_segment_48.mp3,Not Depressed
+7428,462,segments/P462_no_silence_segment_49.mp3,Not Depressed
+7429,462,segments/P462_no_silence_segment_50.mp3,Not Depressed
+7430,462,segments/P462_no_silence_segment_51.mp3,Not Depressed
+7431,462,segments/P462_no_silence_segment_52.mp3,Not Depressed
+7432,462,segments/P462_no_silence_segment_53.mp3,Not Depressed
+7433,462,segments/P462_no_silence_segment_54.mp3,Not Depressed
+7434,462,segments/P462_no_silence_segment_55.mp3,Not Depressed
+7435,462,segments/P462_no_silence_segment_56.mp3,Not Depressed
+7436,462,segments/P462_no_silence_segment_57.mp3,Not Depressed
+7437,462,segments/P462_no_silence_segment_58.mp3,Not Depressed
+7438,462,segments/P462_no_silence_segment_59.mp3,Not Depressed
+7439,462,segments/P462_no_silence_segment_60.mp3,Not Depressed
+7440,462,segments/P462_no_silence_segment_61.mp3,Not Depressed
+7441,462,segments/P462_no_silence_segment_62.mp3,Not Depressed
+7442,462,segments/P462_no_silence_segment_63.mp3,Not Depressed
+7443,462,segments/P462_no_silence_segment_64.mp3,Not Depressed
+7917,324,segments/P324_no_silence_segment_1.mp3,Not Depressed
+7918,324,segments/P324_no_silence_segment_2.mp3,Not Depressed
+7919,324,segments/P324_no_silence_segment_3.mp3,Not Depressed
+7920,324,segments/P324_no_silence_segment_4.mp3,Not Depressed
+7921,324,segments/P324_no_silence_segment_5.mp3,Not Depressed
+7922,324,segments/P324_no_silence_segment_6.mp3,Not Depressed
+7923,324,segments/P324_no_silence_segment_7.mp3,Not Depressed
+7924,324,segments/P324_no_silence_segment_8.mp3,Not Depressed
+7925,324,segments/P324_no_silence_segment_9.mp3,Not Depressed
+7926,324,segments/P324_no_silence_segment_10.mp3,Not Depressed
+7927,324,segments/P324_no_silence_segment_11.mp3,Not Depressed
+7928,324,segments/P324_no_silence_segment_12.mp3,Not Depressed
+7929,324,segments/P324_no_silence_segment_13.mp3,Not Depressed
+7930,324,segments/P324_no_silence_segment_14.mp3,Not Depressed
+7931,324,segments/P324_no_silence_segment_15.mp3,Not Depressed
+7932,324,segments/P324_no_silence_segment_16.mp3,Not Depressed
+7933,324,segments/P324_no_silence_segment_17.mp3,Not Depressed
+7934,324,segments/P324_no_silence_segment_18.mp3,Not Depressed
+7935,324,segments/P324_no_silence_segment_19.mp3,Not Depressed
+7936,324,segments/P324_no_silence_segment_20.mp3,Not Depressed
+7937,324,segments/P324_no_silence_segment_21.mp3,Not Depressed
+7938,324,segments/P324_no_silence_segment_22.mp3,Not Depressed
+7939,324,segments/P324_no_silence_segment_23.mp3,Not Depressed
+7940,324,segments/P324_no_silence_segment_24.mp3,Not Depressed
+7941,324,segments/P324_no_silence_segment_25.mp3,Not Depressed
+7942,324,segments/P324_no_silence_segment_26.mp3,Not Depressed
+7943,324,segments/P324_no_silence_segment_27.mp3,Not Depressed
+7944,324,segments/P324_no_silence_segment_28.mp3,Not Depressed
+7945,324,segments/P324_no_silence_segment_29.mp3,Not Depressed
+7946,324,segments/P324_no_silence_segment_30.mp3,Not Depressed
+7947,324,segments/P324_no_silence_segment_31.mp3,Not Depressed
+7948,324,segments/P324_no_silence_segment_32.mp3,Not Depressed
+7949,324,segments/P324_no_silence_segment_33.mp3,Not Depressed
+7950,324,segments/P324_no_silence_segment_34.mp3,Not Depressed
+7951,324,segments/P324_no_silence_segment_35.mp3,Not Depressed
+7952,324,segments/P324_no_silence_segment_36.mp3,Not Depressed
+7953,324,segments/P324_no_silence_segment_37.mp3,Not Depressed
+7954,324,segments/P324_no_silence_segment_38.mp3,Not Depressed
+7955,324,segments/P324_no_silence_segment_39.mp3,Not Depressed
+7956,324,segments/P324_no_silence_segment_40.mp3,Not Depressed
+7957,324,segments/P324_no_silence_segment_41.mp3,Not Depressed
+7958,324,segments/P324_no_silence_segment_42.mp3,Not Depressed
+7959,324,segments/P324_no_silence_segment_43.mp3,Not Depressed
+7960,324,segments/P324_no_silence_segment_44.mp3,Not Depressed
+7961,324,segments/P324_no_silence_segment_45.mp3,Not Depressed
+7962,324,segments/P324_no_silence_segment_46.mp3,Not Depressed
+7963,324,segments/P324_no_silence_segment_47.mp3,Not Depressed
+7964,324,segments/P324_no_silence_segment_48.mp3,Not Depressed
+7965,324,segments/P324_no_silence_segment_49.mp3,Not Depressed
+7966,324,segments/P324_no_silence_segment_50.mp3,Not Depressed
+7967,324,segments/P324_no_silence_segment_51.mp3,Not Depressed
+7968,324,segments/P324_no_silence_segment_52.mp3,Not Depressed
+7969,324,segments/P324_no_silence_segment_53.mp3,Not Depressed
+7970,324,segments/P324_no_silence_segment_54.mp3,Not Depressed
+7971,324,segments/P324_no_silence_segment_55.mp3,Not Depressed
+7972,324,segments/P324_no_silence_segment_56.mp3,Not Depressed
+7973,324,segments/P324_no_silence_segment_57.mp3,Not Depressed
+7974,324,segments/P324_no_silence_segment_58.mp3,Not Depressed
+7975,324,segments/P324_no_silence_segment_59.mp3,Not Depressed
+7976,324,segments/P324_no_silence_segment_60.mp3,Not Depressed
+7977,324,segments/P324_no_silence_segment_61.mp3,Not Depressed
+7978,324,segments/P324_no_silence_segment_62.mp3,Not Depressed
+7979,324,segments/P324_no_silence_segment_63.mp3,Not Depressed
+7980,324,segments/P324_no_silence_segment_64.mp3,Not Depressed
+7981,324,segments/P324_no_silence_segment_65.mp3,Not Depressed
+7982,324,segments/P324_no_silence_segment_66.mp3,Not Depressed
+7983,324,segments/P324_no_silence_segment_67.mp3,Not Depressed
+7984,324,segments/P324_no_silence_segment_68.mp3,Not Depressed
+7985,324,segments/P324_no_silence_segment_69.mp3,Not Depressed
+7986,324,segments/P324_no_silence_segment_70.mp3,Not Depressed
+8366,348,segments/P348_no_silence_segment_1.mp3,Depressed
+8367,348,segments/P348_no_silence_segment_2.mp3,Depressed
+8368,348,segments/P348_no_silence_segment_3.mp3,Depressed
+8369,348,segments/P348_no_silence_segment_4.mp3,Depressed
+8370,348,segments/P348_no_silence_segment_5.mp3,Depressed
+8371,348,segments/P348_no_silence_segment_6.mp3,Depressed
+8372,348,segments/P348_no_silence_segment_7.mp3,Depressed
+8373,348,segments/P348_no_silence_segment_8.mp3,Depressed
+8374,348,segments/P348_no_silence_segment_9.mp3,Depressed
+8375,348,segments/P348_no_silence_segment_10.mp3,Depressed
+8376,348,segments/P348_no_silence_segment_11.mp3,Depressed
+8377,348,segments/P348_no_silence_segment_12.mp3,Depressed
+8378,348,segments/P348_no_silence_segment_13.mp3,Depressed
+8379,348,segments/P348_no_silence_segment_14.mp3,Depressed
+8380,348,segments/P348_no_silence_segment_15.mp3,Depressed
+8381,348,segments/P348_no_silence_segment_16.mp3,Depressed
+8382,348,segments/P348_no_silence_segment_17.mp3,Depressed
+8383,348,segments/P348_no_silence_segment_18.mp3,Depressed
+8384,348,segments/P348_no_silence_segment_19.mp3,Depressed
+8385,348,segments/P348_no_silence_segment_20.mp3,Depressed
+8386,348,segments/P348_no_silence_segment_21.mp3,Depressed
+8387,348,segments/P348_no_silence_segment_22.mp3,Depressed
+8388,348,segments/P348_no_silence_segment_23.mp3,Depressed
+8389,348,segments/P348_no_silence_segment_24.mp3,Depressed
+8390,348,segments/P348_no_silence_segment_25.mp3,Depressed
+8391,348,segments/P348_no_silence_segment_26.mp3,Depressed
+8392,348,segments/P348_no_silence_segment_27.mp3,Depressed
+8393,348,segments/P348_no_silence_segment_28.mp3,Depressed
+8394,348,segments/P348_no_silence_segment_29.mp3,Depressed
+8395,348,segments/P348_no_silence_segment_30.mp3,Depressed
+8396,348,segments/P348_no_silence_segment_31.mp3,Depressed
+8397,348,segments/P348_no_silence_segment_32.mp3,Depressed
+8398,348,segments/P348_no_silence_segment_33.mp3,Depressed
