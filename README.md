@@ -4,8 +4,7 @@ Welcome to my data science portfolio! This repository showcases a diverse collec
 
 If there is one project to explore first, I highly recommend checking out the **Dress_Sense** project in the Generative AI section. It is my capstone project for the MIDS program at UC Berkeley, an AI-powered fashion recommendation system that represents the culmination of my recent work in generative AI and machine learning.
 
-Master in Information and Data Science
-University of California, Berkeley
+## UC Berkeley - Master in Information and Data Science
 
 **Coursework:**
 * Generative AI
