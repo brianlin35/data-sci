@@ -1,1 +1,0 @@
-TODO - add table of contents and project descriptions
